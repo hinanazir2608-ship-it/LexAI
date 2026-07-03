@@ -1,0 +1,2075 @@
+--- Page 1 ---
+The Indian Contract Act, 1872
+Business 
+Laws
+C
+A
+ 
+F
+O
+U
+N
+D
+A
+T
+I
+O
+N
+ 
+ 
+ 
+ 
+S
+I
+N
+C
+E
+ 
+1
+9
+9
+7
+www.navkardigitalinstitute.com
+
+--- Page 2 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+CHAPTER-1
+THE INDIAN CONTRACT ACT, 1872
+INTRODUCTION
+
+Indian Contract Act received its assent on 25th April, 1872.
+
+Indian Contract Act came into force on 1st September, 1872.
+
+It is applicable to whole of India except Jammu and Kashmir.
+
+It is considered to be not complete and not exhaustive in nature.
+
+It creates “Jus In Personam”. It means right against a particular person.
+THEORY QUESTIONS
+Q-1
+What is a Contract ? State the Essential Elements of a Valid Contract?
+Ans.
+The term contract is defined under section 2(h) of the Indian Contract Act, 1872 as-
+“an agreement enforceable by law”.
+The contract consists of two essential elements:
+(i)
+an agreement and
+(ii)
+its enforceability by law.
+Contract = Accepted proposal/Agreement + Enforceability by law
+In terms of Section 10 of the Act, “all agreements are contracts if they are made by the free consent of
+the parties competent to contract, for a lawful consideration and with a lawful object and are not
+expressly declared to be void”.
+Essential Elements Of A Valid Contract
+1.
+Two Parties: One cannot contract with himself. A contract involves at least two parties- one party
+making the offer and the other party accepting it. A contract may be made by natural persons and by
+other persons having legal existence e.g. companies, universities etc.
+2.
+Parties must intend to create legal obligations: There must be an intention on the part of the parties to
+create legal relationship between them. Social or domestic type of agreements are not enforceable in
+court of law and hence they do not result into contracts.
+Case Law : (Balfour v. Balfour)
+A husband agreed to pay to his wife certain amount as maintenance every month while he was abroad.
+Husband failed to pay the promised amount. Wife sued him for the recovery of the amount. Here in
+this case wife could not recover as it was a social agreement and the parties did not intend to create any
+legal relations.
+
+--- Page 3 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+3.
+Other Formalities to be complied with in certain cases: In case of certain contracts, the contracts must
+be in writing, e.g. Contract of Insurance is not valid except as a written contract.
+4.
+Certainty of meaning: The agreement must be certain and not vague or indefine
+5.
+Possibility of performance of an agreement: The terms of agreement should be capable of performance.
+An agreement to do an act impossible in itself cannot be enforced.
+6.
+Offer and Acceptance : An agreement is the first essential element of a valid contract. According to
+Section 2(e) of the Indian Contract Act, 1872, “Every promise and every set of promises, forming
+consideration for each other, is an agreement” and according to Section 2(b) “A proposal when accepted,
+becomes a promise”. An agreement is an outcome of offer and acceptance.
+Free Consent: Two or more persons are said to consent when they agree upon the same thing in the
+same sense. This can also be understood as identity of minds in understanding the terms viz consensus
+ad idem. Further such a consent must be free. Consent would be considered as free consent if it is not
+caused by coercion, undue influence, fraud or, misrepresentation or mistake.
+8.
+Capacity of Parties: Capacity to contract means the legal ability of a person to enter into a valid contract.
+Section 11 of the Indian Contract Act specifies that every person is competent to contract who
+(a)
+is of the age of majority according to the law to which he is subject and
+(b)
+is of sound mind and
+(c)
+is not otherwise disqualified from contracting by any law to which he is subject.
+9.
+Lawful Consideration and Object: The consideration and object of the agreement must be lawful.
+10.
+Not expressly declared to be void: The agreement entered into must not be which the law declares to
+be either illegal or void. An illegal agreement is an agreement expressly or impliedly prohibited by
+law. A void agreement is one without any legal effects.
+Q-2
+State the Types Of Contract?
+Ans.
+As per The Indian Contract Act 1872 contracts are classified on the following basis:
+I.
+On the basis of the Validity
+1.
+Valid Contract: An agreement which is binding and enforceable is a valid contract. It contains all
+the essential elements of a valid contract.
+2.
+Void Contract: Section 2 (j) states as follows: “A contract which ceases to be enforceable by law
+becomes void when it ceases to be enforceable”. Thus a void contract is one which cannot be
+enforced by a court of law.
+3.
+Voidable Contract: Section 2(i) defines that “an agreement which is enforceable by law at the
+option of one or more parties thereto, but not at the option of the other or others is a voidable
+contract”.
+This in fact means where one of the parties to the agreement is in a position or is legally entitled
+or authorized to avoid performing his part, then the agreement is treated and becomes voidable.
+4.
+Illegal Contract : It is a contract which the law forbids to be made. The court will not enforce such
+a contract but also the connected contracts. All illegal agreements are void but all void agreements
+are not necessarily illegal.
+5.
+Unenforceable Contract: Where a contract is good in substance but because of some technical
+defect i.e. absence in writing, barred by limitation etc. one or both the parties cannot sue upon it,
+it is described as an unenforceable contract
+
+--- Page 4 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+II.
+On the basis of the Formation
+1.
+Express Contracts: A contract would be an express contract if the terms are expressed by words
+spoken or in writing. Any promise is made in words the promise is said to be express.
+2.
+Implied Contracts: Implied contracts in contrast come into existence by implication. Most often
+the implication is by law and or by action. Any promise is made otherwise than in words the
+promise is said to be implied.
+3.
+Tacit Contracts: The word Tacit means silent. Tacit contracts are those that are inferred through
+the conduct of parties without any words spoken or written.
+A classic example of tacit contract would be when cash is withdrawn by a customer of a bank from
+the automatic teller machine [ATM]. Another example of tacit contract is where a contract is
+assumed to have been entered when a sale is given effect to at the fall of hammer in an auction
+sale.
+4.
+Quasi-Contract: A quasi-contract is not an actual contract but it resembles a contract. It is created
+by law under certain circumstances.
+5.
+E-Contracts: When a contract is entered into by two or more parties using electronics means, such
+as e-mails is known as e-commerce contracts.
+III.
+On the basis of the Performance
+1.
+Executed Contract: The consideration in a given contract could be an act or forbearance. When the
+act is done or executed or the forbearance is brought on record, then the contract is an executed
+contract.
+2.
+Executory Contract: In an executory contract the consideration is reciprocal promise or obligation.
+Such consideration is to be performed in future only and therefore these contracts are described
+as executory contracts.
+3.
+Unilateral Contract: Unilateral contract is a one sided contract in which one party has performed
+his duty or obligation and the other party’s obligation is outstanding.
+4.
+Bilateral Contract: A Bilateral contract is one where the obligation or promise is outstanding on
+the part of both the parties.
+Q-3
+State the Difference between Void and Voidable Contract ?
+Ans.
+S.No. Basis
+Void Contract
+Voidable Contract
+1
+Meaning
+A Contract ceases to be enforceable
+An agreement which is enforceable by
+by law becomes void when it ceases
+law at the option of one or more of the
+to be enforceable.
+parties thereto, but not at the option
+of the other or others, is a voidable
+contract.
+2
+Cause
+A contract becomes void due to change
+A contract becomes a voidable contract
+in law or change in circumstances
+if the consent of a party was not free.
+beyond the contemplation of parties.
+
+--- Page 5 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+3
+Performance A void contract cannot be performed
+If the aggrieved party does not, within
+of contract
+reasonable time, exercise his right to
+avoid the contract, any party can sue the
+other for claiming the performance of
+the contract.
+4
+Rights
+A void contract does not grant any
+The party whose consent was not free
+right to any party.
+has the right to rescind the contract
+Q-4
+State the Difference between Void and Illegal Agreement ?
+Ans.
+Sr.
+ Basis of
+Void agreement
+Illegal agreement
+No.
+difference
+1
+Scope
+A void agreement is not necessarily
+An illegal agreement is always void.
+illegal.
+2
+Nature
+Not forbidden under law.
+Are forbidden under law.
+3
+Punishment
+Parties   are   not   liable   for   any
+Parties to illegal agreements are liable
+punishment under the law.
+for punishment.
+4
+Collateral
+Agreement
+It’s  not  necessary  that  agreements
+Agreements   collateral   to   illegal
+collateral to void agreements may also
+agreements are always void.
+be void. It may be valid also.
+Q-5
+Define An Offer . State the types of an offer . Also explain the Essentials of A Valid Offer ?
+Ans.
+Definition of Offer/Proposal :
+According to Section 2(a) of the Indian Contract Act, 1872, “when one person signifies to another his
+willingness to do or to abstain from doing anything with a view to obtaining the assent of that other to
+such act or abstinence, he is said to make a proposal”.
+Types Of Offer
+(a)
+General offer: It is an offer made to public at large and hence anyone can accept and do the desired act
+Case Law: Carlill Vs. Carbolic Smoke Ball Co. (1893)
+Facts: In this famous case Carbolic smoke Ball Co. advertised in several newspapers that a reward of
+£100 would be given to any person who contracted influenza after using the smoke balls produced by
+the Carbolic Smoke Company according to printed directions. One lady, Mrs. Carlill, used the smoke
+balls as per the directions of company and even then suffered from influenza. Held, she could recover
+the amount as by using the smoke balls she had accepted the offer.
+(b)
+Special/Specific offer: When the offer is made to a specific or an ascertained person, it is known as a
+specific offer. Specific offer can be accepted only by that specified person to whom the offer has been
+made
+(c)
+Cross offer: When two parties exchange identical offers in ignorance at the time of each other’s offer,
+the offers are called cross offers. There is no binding contract in such a case because offer made by a
+person cannot be construed as acceptance of the another’s offer.
+
+--- Page 6 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+(d)
+Counter offer: When the offeree offers to qualified acceptance of the offer subject to modifications
+and variations in the terms of original offer, he is said to have made a counter offer. Counter-offer
+amounts to rejection of the original offer. It is also called as Conditional Acceptance.
+(e)
+Standing or continuing or open offer: An offer which is allowed to remain open for acceptance over a
+period of time is known as standing or continuing or open offer. Tenders that are invited for supply of
+goods is a kind of standing offer.
+Essential of a valid offer
+1.
+It must be capable of creating legal relations: Offer must be such as in law is capable of being accepted
+and giving rise to legal relationship.
+2.
+It must be certain, definite and not vague: If the terms of an offer are vague or indefinite, its acceptance
+cannot create any contractual relationship.
+3.
+It must be communicated to the offeree: An offer, to be complete, must be communicated to the
+person to whom it is made, otherwise there can be no acceptance of it. An acceptance of an offer, in
+ignorance of the offer, is not acceptance and does not confer any right on the acceptor.
+Case Law: Lalman Shukla v. GauriDutt
+Facts: G (Gauridutt) sent his servant L (Lalman) to trace his missing nephew. He then announced that
+anybody who traced his nephew would be entitled to a certain reward. L traced the boy in ignorance of
+this announcement. Subsequently when he came to know of the reward, he claimed it. Held, he was
+not entitled to the reward, as he did not know the offer.
+4.
+It must be made with a view to obtaining the assent of the other party: Offer must be made with a view
+to obtaining the assent of the other party addressed and not merely with a view to disclosing the
+intention of making an offer.
+5.
+It may be conditional: An offer can be made subject to any terms and conditions by the offeror.
+6.
+Offer should not contain a term the non compliance of which would amount to acceptance: Thus, one
+cannot say that if acceptance is not communicated by a certain time the offer would be considered as
+accepted.
+7.
+Offer may be express or implied: An offer may be made either by words or by conduct.
+8.
+An offer should be distinguished from an invitation to offer. An offer is definite and capable of converting
+an intention into a contract. Whereas an invitation to an offer is only a circulation of an offer, it is an
+attempt to induce offers and precedes a definite offer. An invitation to offer is an act precedent to
+making an offer.
+Q-6
+State the difference between an Offer and an Invitation to an Offer ?
+Ans.
+Difference between offer and invitation to make an offer:
+
+In terms of Section 2(a) of the Act, an offer is the final expression of willingness by the offeror to
+be bound by the offer should the other party chooses to accept it.
+
+On the other hand, offers made with the intention to negotiate or offers to receive offers are
+known as invitation to offer.
+
+Thus where a party without expressing his final willingness proposes certain terms on which he is
+willing to negotiate he does not make an offer, but only invites the other party to make an offer
+on those terms.
+
+Hence the only thing that is required is the willingness of the offeree to abide by the terms of
+offer.If a person who makes the statement has the intention to be bound by it as soon as the other
+accepts, he is making an offer.
+
+--- Page 7 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+
+Thus the intention to be bound is important factor to be considered in deciding whether a statement
+is an ‘offer’ or ‘invitation to offer.’
+
+Following are instances of invitation to offer to buy or sell:
+(i)
+An invitation by a company to the public to subscribe for its shares.
+(ii)
+Display of goods for sale in shop windows.
+(iii) Advertising auction sales and
+(iv) Quotation of prices sent in reply to a query regarding price.
+Q-7
+Define An Acceptance. State the Theory of Anson. Also explain the Essentials of A Valid Acceptance?
+Ans.
+Definition of Acceptance:
+In terms of Section 2(b) of the Act, ‘the term acceptance’ is defined as follows:
+“When the person to whom the proposal is made signifies his assent thereto, proposal is  said to be accepted.
+The proposal, when accepted, becomes a promise”.
+ Theory Of Anson:
+ Relationship between offer and acceptance:
+
+According to Sir William Anson “Acceptance is to offer what a lighted match is to a train of gun powder”.
+
+The effect of this observation is that what acceptance triggers cannot be recalled or undone. But there
+is a choice to the person who had the train to remove it before the match is applied.
+
+It in effect means that the offer can be withdrawn just before it is accepted. Acceptance converts the
+offer into a promise and then it is too late to revoke it.
+
+This means as soon as the train of gun powder is lighted it would explode.
+
+Train of Gun powder [offer] in itself is inert, but it is the lighted match [the acceptance] which causes
+the gun powder to explode.
+
+The significance of this is an offer in itself cannot create any legal relationship but it is the acceptance
+by the offeree which creates a legal relationship.
+
+Once an offer is accepted it becomes a promise and cannot be withdrawn or revoked. An offer remains
+an offer so long as it is not accepted but becomes a contract as soon as it is accepted.
+ Legal Rules regarding a valid acceptance
+(1)
+Acceptance can be given only by the person to whom offer is made: In case of a specific offer, it can be
+accepted only by the person to whom it is made.
+(2)
+Acceptance must be absolute and unqualified: Any conditional acceptance or acceptance with varying
+or too deviant conditions is no acceptance. Such conditional acceptance is a counter proposal and has
+to be accepted by the proposer, if the original proposal has to materialize into a contract.
+(3)
+The acceptance must be communicated: To conclude a contract between the parties, the acceptance
+must be communicated in some perceptible form. Further when a proposal is accepted, the offeree
+must have the knowledge of the offer made to him. If he does not have the knowledge, there can be no
+acceptance.
+(4)
+Acceptance must be in the prescribed mode: Where the mode of acceptance is prescribed in the
+proposal, it must be accepted in that manner.
+
+--- Page 8 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+(5)
+Time: Acceptance must be given within the specified time limit, if any, and if no time is stipulated,
+acceptance must be given within the reasonable time and before the offer lapses.
+(6)
+Mere silence is not acceptance: The acceptance of an offer cannot be implied from the silence of the
+offeree or his failure to answer, unless the offeree has in any previous conduct indicated that his
+silence is the evidence of acceptance.
+Q-8
+Explain the Rules regarding communication and revocation of offer and acceptance ?
+Ans.
+The Indian Contract Act, 1872 gives a lot of importance to “time” element in deciding when the offer
+and acceptance is complete.
+Communication of offer: In terms of Section 4 of the Act, “the communication of offer is complete
+when it comes to the knowledge of the person to whom it is made”. This can be explained by an
+example. Where ‘A’ makes a proposal to ‘B’ by post to sell his house for ` 5 lakhs and if the letter
+containing the offer is posted on 10th March and if that letter reaches ‘B’ on 12th March the offer is said
+to have been communicated on 12th March when B received the letter.
+Communication of acceptance: Communication of acceptance is complete
+(i)
+As against the proposer, when it is put in the course of transmission to him so as to be out of the
+power of the acceptor to withdraw the same;
+(ii)
+As against the acceptor, when it comes to the knowledge of the proposer.
+Acceptance over telephone or telex or fax: When an offer is made of instantaneous communication
+like telex, telephone, fax or through e-mail, the contract is only complete when the acceptance is
+received by the offeree, and the contract is made at the place where the acceptance is received
+(Entores Ltd. v. Miles Far East Corporation). However, in case of a call drops and disturbances in the line,
+there may not be a valid contract.
+Revocation
+In term of Section 4, communication of revocation (of the proposal or its acceptance) is complete.
+(i)
+as against the person who makes it when it is put into a course of transmission to the person to
+whom it is made so as to be out of the power of the person who makes it, and
+(ii)
+as against the person to whom it is made, when it comes to his knowledge.
+Q-9
+How can An Offer Lapse? State the ways of lapse of an offer?
+Ans.
+Modes of revocation of offer
+(i)
+By Notice of Revocation
+(ii)
+By Rejection of offer
+(iii) By Lapse of Time: The time for acceptance can lapse if the acceptance is not given within the
+specified time and where no time is specified, then within a reasonable time.
+(iv) By Non fulfillment of condition precedent: Where the acceptor fails to fulfill a condition precedent
+to acceptance the proposal gets revoked.
+(v)
+By Death or Insanity: Death or insanity of the proposer would result in automatic revocation of the
+proposal but only if the fact of death or insanity comes to the knowledge of the acceptor.
+(vi) By Counter offer
+(vii) By Cross offer
+(viii) By the non acceptance of the offer according to the prescribed or usual Mode
+(ix) By subsequent illegality
+
+--- Page 9 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+Q-10
+What is Consideration? State the Essentials of a Valid Consderation?
+Ans.
+Section 2(d) defines consideration as follows:
+“When at the desire of the promisor, the promisee or any other person has done or abstained from
+doing, or does or abstains from doing or promises to do or abstain from doing something, such an act or
+abstinence or promise is called consideration for the promise”.
+Essentials Of A Valid Consideration
+(i)
+Consideration must move at the desire of the promisor: Consideration must be offered by the
+promisee or the third party at the desire or request of the promisor. An act done at the desire of
+a third party is not a consideration.
+(ii)
+Consideration may move from promisee or any other person: In India, consideration may proceed
+from the promisee or any other person who is not a party to the contract. In other words, there can
+be a stranger to a consideration but not stranger to a contract.
+Case Law : [Chinnayya vs. Ramayya (1882)]
+An old lady made a gift of her property to her daughter with a direction to pay a certain sum of
+money to the maternal uncle by way of annuity. On the same day, the daughter executed a writing
+in favour of the brother agreeing to pay annuity. The daughter did not, however, pay the annuity
+and the uncle sued to recover it. It was held that there was sufficient consideration for the uncle
+to recover the money from the daughter
+(iii) Executed and executory consideration: A consideration which consists in the performance of an
+act is said to be executed. When it consists in a promise, it is said to be executory. The promise by
+one party may be the consideration for an act by some other party, and vice versa.
+(iv) Consideration may be past, present or future: The words “has done or abstained from doing” [as
+contained in Section 2(d)] are a recognition of the doctrine of past consideration. In order to
+support a promise, a past consideration must move by a previous request.
+(v)
+Consideration need not be adequate: Consideration need not to be of any particular value. It
+need not be approximately of equal value with the promise for which it is exchanged but it must
+be something which the law would regard as having some value. Something in return need not be
+equal to something given. It can be considered a bad bargain of the party.
+But as an exception if it is shockingly less and the other party alleges that his consent was not free
+than this inadequate consideration can be taken as an evidence in support of this allegation
+(vi) Performance of what one is legally bound to perform: (consideration must not be performance of
+existing duty) The performance of an act by a person who is legally bound to perform the same
+cannot be consideration for a contract. Hence, a promise to pay money to a witness is void, for it
+is without consideration
+(vii) Consideration must be real and not illusory: Consideration must be real and must not be illusory.
+It must be something to which the law attaches some value. If it is legally or physically impossible
+it is not considered valid consideration.
+(viii) Consideration must not be unlawful, immoral, or opposed to public policy. Only presence of
+consideration is not sufficient it must be lawful. Anything which is immoral or opposed to public
+policy also cannot be valued as valid consideration.
+Q-11
+A Contract without Consideration is Void. State the Exceptions.
+Ans.
+The general rule is that an agreement made without consideration is void. In every valid contract,
+consideration is very important. A contract may only be enforceable when consideration is there.
+However, the Indian Contract Act contains certain exceptions to this rule. In the following cases, the
+agreement though made without consideration, will be valid and enforceable.
+
+--- Page 10 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+1.
+Natural Love and Affection: Conditions to be fulfilled are as under:
+(i)
+It must be made out of natural love and affection between the parties.
+(ii)
+Parties must stand in near relationship to each other.
+(iii) It must be in writing.
+(iv) It must also be registered under the law.
+2.
+Compensation for past voluntary services: A promise to compensate, wholly or in part, a person who
+has already voluntarily done something for the promisor, is enforceable. In order that a promise to pay
+for the past voluntary services be binding, the following essential factors must exist.
+(i)
+The services should have been rendered voluntarily.
+(ii)
+The services must have been rendered for the promisor.]
+(iii) The promisor must be in existence at the time when services were rendered.
+(iv) The promisor must have intended to compensate the promisee
+3.
+Promise to pay time barred debt: Where a promise in writing signed by the person making it or by his
+authorised agent, is made to pay a debt barred by limitation it is valid without consideration.
+4.
+Agency: No consideration is necessary to create an agency.It means an agency done for free will create
+a valid contract.
+5.
+Completed gift: In case of completed gifts, the rule no consideration no contract does not apply.
+6.
+Bailment: No consideration is required to effect the contract of bailment (Section 148).
+7.
+Charity: If a promisee undertakes the liability on the promise of the person to contribute to charity,
+there the contract shall be valid.
+Q-12
+Explain the Rule of Privity of Contract. Also state the situations in which this Rule does not apply?
+Ans.
+The aforesaid rule, stranger to a contract cannot sue is known as a “doctrine of privity of contract”, is
+however, subject to certain exceptions. In other words, even a stranger to a contract may enforce a
+claim in the following cases:
+(1)
+In the case of trust, a beneficiary can enforce his right under the trust, though he was not a party
+to the contract between the settler and the trustee.
+(2)
+In the case of a family settlement, if the terms of the settlement are reduced into writing, the
+members of family who originally had not been parties to the settlement may enforce the
+agreement.
+(3)
+In the case of certain marriage contracts, a female member can enforce a provision for marriage
+expenses made on the partition of the Hindu Undivided Family.
+(4)
+In the case of assignment of a contract, when the benefit under a contract has been assigned, the
+assignee can enforce the contract.
+(5)
+Acknowledgement or estoppel – where the promisor by his conduct acknowledges himself as an
+agent of the third party, it would result into a binding obligation towards third party.
+(6)
+Contracts entered into through an agent: The principal can enforce the contracts entered by his
+agent where the agent has acted within the scope of his authority and in the name of the principal.
+Q-13
+What is the position of minor as per Indian Contract Act, 1872?
+Ans.
+Age of Majority: In India, the age of majority is regulated by the Indian Majority Act, 1875.
+Every person domiciled in India shall attain the age of majority on the completion of 18 years of age and
+not before.
+
+--- Page 11 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+Law relating to Minor’s agreement/Position of Minor
+1.
+A contract made with or by a minor is void ab-initio: A minor is not competent to contract and any
+agreement with or by a minor is void from the very beginning.
+Case Law: Mohiri Bibi vs. DharmoDas Ghosh “A, a minor borrowed ` 20,000 from B and as a security
+for the same executed a mortgage in his favour. He became a major a few months later and led a
+suit for the declaration that the mortgage executed by him during his minority was void and
+should be cancelled. It was held that a mortgage by a minor was void and B was not entitled to
+repayment of money.
+2.
+No ratification after attaining majority: A minor cannot ratify the agreement on attaining majority
+as the original agreement is void ab initio and a void agreement can never be ratified.
+3.
+Minor can be a beneficiary: Though a minor is not competent to contract, nothing in the Contract
+Act prevents him from making the other party bound to the minor.Thus, A minor cannot become
+partner in a partnership firm. However, he may with the consent of all the partners, be admitted
+to the benefits of partnership.
+4.
+A minor can always plead minority: A minor can always plead minority and is not stopped to do so
+even where he has taken any loan or entered into any contract by falsely representing that he was
+major. Rule of estoppel cannot be applied against a minor. It means he can be allowed to plea his
+minority in defence.
+5.
+Liability for necessaries: A claim for necessaries supplied to a minor is enforceable by law. But
+there is no personal liability of the minor, but only his property is liable.
+To render minor’s estate liable for necessaries two conditions must be satisfied.
+(i)
+The contract must be for the goods reasonably necessary for his support in the station in
+life.
+(ii)
+The minor must not have already a sufficient supply of these necessaries.
+6.
+Contract by guardian - how far enforceable: Though a minor’s agreement is void, his guardian can,
+under certain circumstances enter into a valid contract on minor’s behalf. Where the guardian
+makes a contract for the minor, which is within his competence and which is for the benefit of the
+minor, there will be valid contract which the minor can enforce.
+7.
+No specific performance: A minor’s agreement being absolutely void, there can be no question of
+the specific performance of such an agreement.
+8.
+No insolvency: A minor cannot be declared insolvent as he is incapable of contracting debts and
+dues are payable from the personal properties of minor and he is not personally liable.
+9.
+Minor can be an agent: A minor can act as an agent. But he will not be liable to his principal for his
+acts. A minor can draw, deliver and endorse negotiable instruments without himself being liable.
+10.
+Liability for torts: A tort is a civil wrong. A minor is liable in tort unless the tort in reality is a breach
+of contract
+Q-14
+What do we understand by Free Consent. Also state the situations when consent of party is not free?
+Ans.
+As per the provisions of Indian Contract Act,1872 “two or more persons are said to consent when they
+agree upon the same thing in the same sense.” Consent is said to be free when it is not caused by:
+1.
+Coercion
+2.
+Undue Influence
+3.
+Fraud
+4.
+Misrepresentation
+
+--- Page 12 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+5.
+Mistake.
+When consent to an agreement is caused by coercion, fraud, misrepresentation, or undue influence,
+the agreement is a contract voidable at the option of the party whose consent was so caused. When the
+consent is vitiated by mistake, the contract becomes void.
+(I)
+Coercion (Section 15)
+“Coercion’ is the committing, or threatening to commit, any act forbidden by the Indian Penal Code or
+the unlawful detaining, or threatening to detain any property, to the prejudice of any person whatever,
+with the intention of causing any person to enter into an agreement.”
+(II)
+Undue influence (Section 16)
+“A contract is said to be induced by ‘undue influence’ where the relations subsisting between the
+parties are such that one of the parties is in a position to dominate the will of the other and he uses that
+position to obtain an unfair advantage over the other”.
+A person is deemed to be in position to dominate the will of another:
+(a)
+Where he holds a real or apparent authority over the other; or
+(b)
+Where he stands in a fiduciary relationship to the other; or
+(c)
+Where he makes a contract with a person whose mental capacity is temporarily or permanently
+affected by reason of age, illness or mental or bodily distress for example, an old illiterate person.
+(III) Fraud (Section 17)
+‘Fraud’ means and includes any of the following acts committed by a party to a contract, or with his
+connivance, or by his agent, with an intent to deceive another party thereto or his agent, or to induce
+him to enter into the contract:
+(1)
+the suggestion, as a fact, of that which is not true, by one who does not believe it to be true;
+(2)
+the active concealment of a fact by one having knowledge or belief of the fact;
+(3)
+a promise made without any intention of performing it;
+(4)
+any other act fitted to deceive;
+(5)
+any such act or omission as the law specially declares to be fraudulent.
+Effect of Fraud upon validity of a contract: When the consent to an agreement in caused by the fraud,
+the contract is voidable at option of the party defrauded and he has the following remedies:
+(1)
+He can rescind the contract within a reasonable time.
+(2)
+He can sue for damages.
+(3)
+He can insist on the performance of the contract on the condition that he shall be put in the
+position in which he would have been had the representation made been true.
+Mere silence is not fraud
+A party to the contract is under no obligation to disclose the whole truth to the other party. ‘Caveat
+Emptor’ i.e. let the purchaser beware is the rule applicable to contracts. There is no duty to speak in
+such cases and silence does not amount to fraud. Similarly there is no duty to disclose facts which are
+within the knowledge of both the parties.
+Mere silence as to facts likely to affect the willingness of a person to enter into a contract is not fraud,
+unless the circumstances of the case are such that, regard being had to them, it is the duty of the person
+keeping silence to speak, or unless his silence is, in itself, equivalent to speech.
+
+--- Page 13 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+(IV) Misrepresentation (Section 18)
+Misrepresentation means and includes -
+(1)
+the positive assertion, in a manner not warranted by the information of the person making it, of
+that which is not true, though he believes it to be true;
+(2)
+any breach of duty which, without an intent to deceive, gains an advantage to the person
+committing it, or any one claiming under him; by misleading another to his prejudice or to the
+prejudice of any one claiming under him;
+(3)
+causing, however, innocently, a party to an agreement to make a mistake as to the substance of
+the thing which is the subject of the agreement.
+Legal effects of agreements without free consent - (Section 19)
+When consent to an agreement is caused by coercion, fraud or misrepresentation, the agreement is a
+contract voidable at the option of the party whose consent was so caused.
+(v)
+Mistake: Mistake means innocent or erroneous belief which leads the party to misunderstand the
+others. Mistake may be either Bilateral or Unilateral.
+Bilateral mistake is when both the parties to a contract are under a mistake.
+Unilateral mistake is when only one party to the contract is under a mistake.
+Effect of mistake on validity of a contract:
+Mistake is some unintentional act, omission or error, arising from unconsciousness, ignorance or
+forgetfulness, imposition or misplaced confidence. It may be of two kinds-
+(i)
+Mistake of Law: A mistake of law does not render a contract void as one cannot take excuse of
+ignorance of the law of his own country. But if the mistake of law is caused through the inducement
+of another, the contract may be avoided. Mistake of foreign law is excusable and is treated like a
+mistake of fact. Contract may be avoided on such mistake.
+(ii)
+Mistake of fact: Where the contracting parties misunderstood each other and are at cross purposes,
+there is a bilateral or mutual mistake. Where both the parties to an agreement are under a
+mistake as to a matter of fact essential to the agreement, the agreement is void.
+Q-15
+In which cases the object and consideration is considered to be unlawful?
+Ans.
+The consideration or object of an agreement is lawful, unless-
+1.
+It is forbidden by law; or
+2.
+Is of such a nature that, if permitted, it would defeat the provisions of any law; or
+3.
+Is fraudulent; or
+4.
+Involves injury to the person or property of another; or
+5.
+The court regards it as immoral; or
+6.
+Opposed to public policy.
+In each of these cases, the consideration or object of an agreement is said to be unlawful. Every
+agreement of which the object or consideration is unlawful is void.
+Q-16
+State the Agreements that are opposed to public policy?
+Ans.
+Following are the Agreements opposed to public policy
+(1)
+Trading with enemy: Any trade with person owing allegiance to a Government at war with India
+without the licence of the Government of India is void, as the object is opposed to public policy.
+
+--- Page 14 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+(2)
+Stifling Prosecution: An agreement to stifle prosecution i.e. “an agreement to present proceedings
+already instituted from running their normal course using force” tends to be a perversion or an
+abuse of justice; therefore, such an agreement is void. The principle is that one should not make
+a trade of felony.
+(3)
+Maintenance and Champerty: Maintenance is an agreement in which a person promises to maintain
+suit in which he has no interest.
+Champerty is an agreement in which a person agrees to assist another in litigation in-exchange of
+a promise to hand over a portion of the proceeds of the action.
+(4)
+Traffic relating to Public Offices: An agreement to traffic in public office is opposed to public
+policy, as it interferes with the appointment of a person best qualified for the service of the
+public. Public policy requires that there should be no money consideration for the appointment
+to an office in which the public is interested.
+(5)
+Agreements tending to create monopolies: Agreements having for their object the establishment
+of monopolies are opposed to public policy and therefore void.
+(6)
+Marriage brokerage agreements: An agreement to negotiate marriage for reward, which is known
+as a marriage brokerage contract, is void, as it is opposed to public policy. For instance, an agreement
+to pay money to a person hired to procure a wife is opposed to public policy and therefore void.
+(7)
+Interference with the course of justice: An agreement whose object is to induce any judicial
+officer of the State to act partially or corruptly is void, as it is opposed to public policy. An agreement
+which contemplates the use of under-hand means to influence legislation is void.
+(8)
+Interest against obligation: The following are examples of agreement that are void as they tend to
+create an interest against obligation. The object of such agreements is opposed to public policy.
+An agreement by an agent to receive without his principal’s consent compensation from
+another for the performance of his agency is invalid.
+A, who is the manager of a firm, agrees to pass a contract to X if X pays to A `200,000
+privately; the agreement is void.
+(9)
+Consideration Unlawful in Part: The general rule is that where the legal part of a contract can be
+severed from the illegal part, the bad part may be rejected and the good one can be retained. But
+where the illegal part cannot be severed, the contract is altogether void.
+(10) Agreement in restraint of marriage: Every agreement in restraint of marriage of any person other
+than a minor, is void. So if a person, being a major, agrees for good consideration not to marry, the
+promise is not binding and considered as void agreement.
+(11) Agreement in restraint of trade (Section 27): An agreement by which any person is restrained
+from exercising a lawful profession, trade or business of any kind, is to that extent void. But this
+rule is subject to the following exceptions:
+(1)
+Where a person sells the goodwill of a business and agrees with the buyer to refrain from
+carrying on a similar business, within speci ed local limits, so long as the buyer or his successor
+in interest carries on a like business therein, such an agreement is valid (goodwill is the
+advantage enjoyed by a business on account of public patronage and encouragement from
+habitual customers). The local limits within which the seller of the goodwill agrees not to
+carry on similar business must be reasonable.
+(2)
+The Indian Partnership Act, 1932 if an outgoing partner makes an agreement with the
+continuing partners that he will not carry on any business similar to that of the firm within a
+specified period or within speci ed local limits, such an agreement, thought in restraint of
+
+--- Page 15 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+trade, will be valid, if the restrictions imposed are reasonable. Similarly, under Section 11 of
+that Act an agreement between partners not to carry on competing business during the
+continuance of partnership is valid.
+(3)
+An agreement of service by which an employee binds himself, during the term of his
+agreement, not to compete with his employer is not in restraint of trade.
+(12) Agreement in restraint of legal proceedings: An agreement in restraint of legal proceeding is the
+one by which any party thereto is restricted absolutely from enforcing his rights under a contract
+through a Court or which abridges the usual period for starting legal proceedings. A contract of this
+nature is void.
+Q-17
+What do we understand by Wagering Agreements? Explain with examples?
+Ans.
+Wagering agreement (Section 30): An agreement by way of a wager is void. It is an agreement involving
+payment of a sum of money upon the determination of an uncertain event. The essence of a wager is
+that each side should stand to win or lose, depending on the way an uncertain event takes place in
+reference to which the chance is taken and in the occurrence of which neither of the parties has
+legitimate interest.
+Essentials of a Wager
+1.
+There must be a promise to pay money or money’s worth.
+2.
+Promise must be conditional on an event happiening or not happening.
+3.
+There must be uncertainty of event.
+4.
+There must be two parties, each party must stand to win or lose.
+5.
+There must be common intention to bet at the timing of making such agreement.
+6.
+Parties should have no interest in the event except for stake.
+Transactions similar to Wager
+(i)
+Lottery transactions: A lottery is a game of chance and not of skill or knowledge. Where the prime
+motive of participant is gambling, the transaction amounts to a wager.
+(ii)
+Crossword Puzzles and Competitions: Crossword puzzles in which prizes depend upon the
+correspondence of the competitor’s solution with a previously prepared solution kept with the
+editor of a newspaper is a lottery and therefore, a wagering transaction.
+(iii) Speculative transactions: An agreement or a share market transaction where the parties intend to
+settle the difference between the contract price and the market price of certain goods or shares
+on a specified day, is a gambling and hence void.
+(iv) Horse Race Transactions: A horse race competition where prize payable to the bet winner is less
+than ` 500, is a wager.
+Transactions resembling with wagering transaction but are not void
+(i)
+Chit fund: Chit fund does not come within the scope of wager. In case of a chit fund, a certain
+number of persons decide to contribute affixed sum for a specified period and at the end of a
+month, the amount so contributed is paid to the lucky winner of the lucky draw.
+(ii)
+Commercial transactions or share market transactions: In these transactions in which delivery of
+goods or shares is intended to be given or taken, do not amount to wagers.
+(iii) Games of skill and Athletic Competition: Crossword puzzles, picture competitions and athletic
+competitions where prizes are awarded on the basis of skill and intelligence are the games of skill
+and hence such competition are valid.
+
+--- Page 16 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+(iv) A contract of insurance: A contract of insurance is a type of contingent contract and is valid under
+law and these contracts are different from wagering agreements.
+Q-18
+Performance of the contract can only be done by Promisor. Comment on the Statement?
+Ans.
+The promise under a contract may be performed, as the circumstances may permit, by the promisor
+himself, or by his agent or his legal representative.
+1.
+Promisor himself: The contracts which involve the exercise of personal skill or diligence, or which
+are founded on personal confidence between the parties must be performed by the promisor
+himself.
+2.
+Agent: Where personal consideration is not the foundation of a contract, the promisor or his
+representative may employ a competent person to perform it.
+3.
+Legal Representatives: Legal representatives of the deceased promisor are bound to perform it.
+But their liability under a contract is limited to the value of the property they inherit from the
+deceased.
+4.
+Third persons:When a promisee accepts performance of the promise from a third person, he
+cannot afterwards enforce it against the promisor.
+5.
+Joint promisors: (Section 42) : When two or more persons have made a joint promise, then unless
+a contrary intention appears by the contract, all such persons must jointly fulfill the promise. If
+any of them dies, his legal representatives must, jointly with the surviving promisors, fulfill the
+promise.
+Q-19
+What are the types of Perfomance? What is the effect of refusal to accept offer of Performance?
+Ans.
+Actual Performance: Where a party to a contract has done what he had undertaken to do or either of
+the parties have fulfilled their obligations under the contract within the time and in the manner
+prescribed.
+Offer to perform or attempted performance or tender of performance: It may happen sometimes,
+when the performance becomes due, the promisor offers to perform his obligation but the promisee
+refuses to accept the performance.
+Effect of refusal to accept offer of performance: Where a promisor has made an offer of performance
+to the promisee, and the offer has not been accepted, then the promisor is not responsible for non
+performance, nor does he thereby lose his rights under the contract.
+Q-20
+Distinguish between succession and assignment?
+Ans.
+Distinction between two legal concepts, viz., succession and assignment
+Succession
+
+When the benefits of a contract are succeeded to by process of law, then both burden and benefits
+attaching to the contract, may sometimes devolve on the legal heir.
+
+Suppose, a son succeeds to the estate of his father after his death, he will be liable to pay the
+debts and liabilities of his father owed during his life-time.
+
+But if the debts owed by his father exceed the value of the estate inherited by the son then he
+would not be called upon to pay the excess.
+
+In other words, the liability of the son will be limited to the extent of the property inherited by
+him.
+
+--- Page 17 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+Assignment
+
+The benefit of a contract can only be assigned but not the liabilities thereunder.
+
+This is because when liability is assigned, a third party gets involved therein.
+Thus a debtor cannot relieve himself of his liability to creditor by assigning to someone else his
+obligation to repay the debt.
+Q-21
+State the liability of Joint Promisors and Promisees?
+Ans.
+Devolution of joint liabilities (Section 42)
+
+When two or more persons have made a joint promise, then, unless a contrary intention appears
+by the contract, all such persons, during their joint lives and after the death of any of them, his
+representative jointly with the survivor or survivors and after the death of last survivor, the
+representatives of all jointly, must fulfil the promise
+
+When two or more persons make a joint promise, the promisee may, in the absence of express
+agreement to the contrary, compel any one or more of such joint promisors to perform the whole
+of the promise.
+
+Each of two or more joint promisors may compel every other joint promisor to contribute equally
+with himself to the performance of the promise, unless a contrary intention appears from the
+contract.
+
+It means if one of the joint promisors is made to perform the whole contract, he can call for a
+contribution from others.
+
+Where two or more persons have made a joint promise, a release of one of such joint promisors
+by the promisee does not discharge the other joint promisor or joint promisors, neither does it
+free the joint promisors so released from responsibility to the other joint promisor or promisors.
+
+If any one of two or more joint promisors makes default in such contribution, the remaining joint
+promisors must bear the loss arising from such default in equal shares.
+Rights of Joint Promisees
+
+“When a person has made a promise to two or more persons jointly, then unless a contrary
+intention appears from the contract, the right to claim performance rests, as between him and
+them, with them during their joint lives, and after the death of any of them, with the representative
+of such deceased person jointly with the survivor or survivors, and after the death of the last
+survivor, with the representatives of all jointly”.
+Q-22
+State the rules regarding performance of Reciprocal Promises?
+Ans.
+(1)
+Order of performance of reciprocal promises
+When the order of performance of the reciprocal promises is expressly fixed by the contract, they shall
+be performed in that order; and where the order is not expressly fixed by the contract, they shall be
+performed in that order which the nature of the transaction requires.
+(2)
+Liability of party preventing event on which the contract is to take effect
+When a contract contains reciprocal promises, and one party to the contract prevents the other from
+performing his promise, the contract becomes voidable at the option of the party so prevented ; and
+he is entitled to compensation from the other party for any loss he may sustain in consequence of the
+non- performance of the contract.
+(3)
+Effect of default as to that promise which should be rest performed, in contract consisting of reciprocal
+promises
+
+--- Page 18 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+When a contract consists of reciprocal promises, such that one of them cannot be performed, or that its
+performance cannot be claimed till the other has been performed, and the promisor of the promise
+last mentioned fails to perform it, such promisor cannot claim the performance of the reciprocal
+promise, and must make compensation to the other party to the contract for any loss which such other
+party may sustain by the non- performance of the contract.
+(4)
+Effect of Failure to Perform at a Time Fixed when Time is Essential
+“When a party to a contract promises to do certain thing at or before the specified time, and fails to do
+any such thing at or before the specified time, the contract, or so much of it as has not been performed,
+becomes voidable at the option of the promisee, if the intention of the parties was that time should be
+of essence of the contract”.
+(5)
+Effect of such failure when time is not essential
+If it was not the intention of the parties that time should be of essence of the contract, the contract
+does not become voidable by the failure to do such thing at or before the speci ed time; but the
+promisee is entitled to compensation from the promisor for any loss occasioned to him by such failure.
+(6)
+Reciprocal promise to do certain things that are legal, and also some other things that are illegal
+Where persons reciprocally promise, rest to do certain things which are legal and secondly, under
+specified circumstances, to do certain other things which are illegal, the rest set of promises is a valid
+contract, but the second is a void agreement
+Q-23
+Explain the concept of Impossibility in detail? Also state the Types of Impossibilities?
+Ans.
+“An agreement to do an act impossible in itself is void”.
+A contract to do an act which, after the contract is made, becomes impossible, or, by reason of some event
+which the promisor could not prevent, unlawful, becomes void when the act becomes impossible or unlawful.
+The impossibility of performance may be of the two types, namely (a) initial impossibility, and (b) subsequent
+impossibility.
+(1)
+Initial Impossibility (Impossibility existing at the time of contract): When the parties agree upon doing
+of something which is obviously impossible in itself the agreement would be void. Impossible in itself
+means impossible in the nature of things. The fact of impossibility may be and may not be known to the
+parties.
+
+If known to the parties: It would be observed that an agreement constituted, quite unknown to
+the parties, may be impossible of being performed and hence void.
+
+If unknown to the parties: Where both the promisor and the promisee are ignorant of the
+imposibility of performance, the contract is void.
+
+If known to the promisor only: Where at the time of entering into a contract, the promisor alone
+knows about the impossibility of performance, or even if he does not know though he should
+have known it with reasonable diligence, the promisee is entitled to claim compensation for any
+loss he suffered on account of non-performance.
+(2)
+Subsequent or Supervening impossibility (Becomes impossible after entering into contract):
+
+When performance of promise become impossible or illegal by occurrence of an unexpected
+event or a change of circumstances beyond the contemplation of parties, the contract becomes
+void.
+
+Sometimes, the performance of a contract is quite possible when it is made. But subsequently,
+some event happens which renders the performance impossible or unlawful. Such impossibility
+is called the subsequent or supervening.
+
+--- Page 19 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+
+It is also called the post-contractual impossibility.
+
+The effect of such impossibility is that it makes the contract void, and the parties are discharged
+from further performance of the contract.
+Q-24
+State the rule of Appropriation of payment?
+Ans.
+Sometimes, a debtor owes several debts to the same creditor and makes payment, which is not sufficient
+to discharge all the debts. In such cases, the payment is appropriated as follows:
+(i)
+Application of payment where debt to be discharged is indicated: Where a debtor, owing several
+distinct debts to one person, makes a payment to him either with express intimation or under
+circumstances implying that the payment is to be applied to the discharge of some particular
+debt, the payment, if accepted, must be applied accordingly.
+(ii)
+Application of payment where debt to be discharged is not indicated: Where the debtor has
+omitted to intimate and there are no other circumstances indicating to which debt the payment is
+to be applied the creditor may apply it at his discretion to any lawful debt actually due and
+payable to him from the debtor, where its recovery is or is not barred by the law in force for the
+time being as to the limitation of suits.
+(iii) Application of payment where neither party appropriates (Section 61): Where neither party makes
+any appropriation, the payment shall be applied in discharge of the debts in order of time, whether
+they are or are not barred by the law in force for the time being as to the limitation of suits. If the
+debts are of equal standing, the payments shall be applied in discharge of each proportionately
+Q-25
+How the contract is discharged by mutual agreement?
+Ans.
+A contract is discharged by mutual agreement in the following ways:
+“If the parties to a contract agree to substitute a new contract for it, or to rescind or alter it, the original
+contract need not be performed”
+
+Novation: The parties to a contract may substitute a new contract for the old. If they do so, it will
+be a case of novation. On novation, the old contract is discharged and consequently it need not be
+performed.
+
+Rescission: A contract is also discharged by rescission. When the parties to a contract agree to
+rescind it, the contract need not be performed. In the case of rescission, only the old contract is
+cancelled and no new contract comes to exist in its place.
+
+Alteration: The terms of contract may be so altered by mutual agreement that the alteration may
+have the effect of substituting a new contract for the old one. In other words, the distinction
+between novation and alteration is very slender.
+Difference between Novation and alteration:
+Novation
+It means substitution of an existing contract with a new one.
+Novation may be between same parties or there may be a change in the contracting parties.
+In case of novation there is altogether a substitution of new contract in place of the old contract.
+Alteration
+Alteration the terms of the contract may be altered by mutual agreement by the contracting parties
+But the parties to the contract will remain the same.
+In case of alteration it is not essential to substitute a new contract in place of the old contract.
+In alteration, there may be a change in some of the terms and conditions of the original agreement.
+
+--- Page 20 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+
+Remission or Waiver: “Every promisee may dispense with or remit, wholly or in part, the
+performance of the promise made to him, or may extend the time for such performance or may
+accept instead of it any satisfaction which he thinks t”. In other words, a contract may be discharged
+by remission.
+Q-26
+State the ways of Discharge of Contract?
+Ans.
+A contract is discharged when the obligations created by it come to an end. A contract may be discharged
+in any one of the following ways:
+1.
+Discharge by performance: It takes place when the parties to the contract fulfil their obligations arising
+under the contract within the time and in the manner prescribed. Discharge by performance may be
+(1)
+Actual performance; or
+(2)
+Attempted performance.
+2.
+Discharge by mutual agreement: The Indian Contract Act provides if the parties to a contract agree to
+substitute a new contract for it, or to rescind or remit or alter it, the original contract need not be
+performed. The principles of Novation, Rescission, Alteration and Remission are already discussed in
+previous question.
+3.
+Discharge by impossibility of performance: The impossibility may exist from the very start. In that case,
+it would be impossibility ab initio. Alternatively, it may supervene. Supervening impossibility may
+take place owing to:
+
+Change in law
+
+Destruction of the subject-matter essential to that performance
+
+Non-existence or non-occurrence of particular state of things
+
+Declaration of a war
+4.
+Discharge by lapse of time: A contract should be performed within a specified period as prescribed by
+the Limitation Act, 1963. If it is not performed and if no action is taken by the promisee within the
+specified period of limitation, he is deprived of remedy at law.
+5.
+Discharge by operation of law: A contract may be discharged by operation of law which includes by
+death of the promisor, by insolvency etc.
+6.
+Discharge by breach of contract: Breach of contract may be actual breach of contract or anticipatory
+breach of contract.
+
+If one party defaults in performing his part of the contract on the due date, he is said to have
+committed breach thereof.
+
+On the other hand, a person repudiates a contract before the stipulated time for its performance
+has arrived, he is deemed to have committed anticipatory breach.
+
+If one of the parties to a contract breaks the promise the party injured thereby, has not only a right
+of action for damages but he is also discharged from performing his part of the contract.
+Q-27
+What do we understand by Breach of Contract. Also state the types of Breach of Contract?
+Ans.
+Breach means failure of a party to perform his or her obligation under a contract. Breach of contract
+may arise in two ways:
+(1)
+Actual breach of contract
+(2)
+Anticipatory breach of contract
+Actual breach of contract may be committed-
+
+--- Page 21 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+(a)
+At the time when the performance of the contract is due: Here breach has been committed at the
+time when the performance becomes due.
+(b)
+During the performance of the contract: Here breach of contract occurs during the performance of
+the contract, one party fails or refuses to perform his obligation under it by express or implied act.
+Anticipatory breach of contract is a breach of contract occurring before the time fixed for performance
+has arrived. When the promisor refuses altogether to perform his promise and signifies his unwillingness
+even before the time for performance has arrived, it is called Anticipatory Breach.
+Anticipatory breach of a contract may take either of the following two ways:
+(a)
+Expressly by words spoken or written, and
+(b)
+Impliedly by the conduct of one of the parties.
+Effect of Anticipatory Breach: The promisee is excused from performance or from further performance.
+Further he gets an option:
+(1)
+To either treat the contract as “rescinded and sue the other party for damages from breach of
+contract immediately without waiting until the due date of performance;
+or
+(2)
+He may elect not to rescind but to treat the contract as still operative, and wait for the time of
+performance and then hold the other party responsible for the consequences of non-performance.
+Q-28
+What are the remedies for Breach of Contract? Also state if the party is entitled to damages for Breach
+of Contract?
+Ans.
+The following are the remedies for Breach of Contract:
+(1)
+Rescission of contract: When a contract is broken by one party, the other party may treat the contract as
+rescinded. In such a case he is absolved of all his obligations under the contract and is entitled to
+compensation for any damages that he might have suffered.
+(2)
+Quantum Meruit: Where one person has rendered service to another in circumstances which indicate
+an understanding between them that it is to be paid for although no particular remuneration has been
+fixed, the law will infer a promise to pay. Quantum Meruit i.e. as much as the party doing the service
+has deserved.
+For the application of this doctrine, two conditions must be fulfilled:
+(1)
+It is only available if the original contract has been discharged.
+(2)
+The claim must be brought by a party not in default.
+The object of allowing a claim on quantum meruit is to recompensate the party or person for value of
+work which he has done.
+The claim for quantum meruit arises in the following cases:
+(a)
+When an agreement is discovered to be void or when a contract becomes void.
+(b)
+When something is done without any intention to do so gratuitously.
+(c)
+Where there is an express or implied contract to render services but there is no agreement as to
+remuneration.
+(d)
+When one party abandons or refuses to perform the contract.
+(e)
+Where a contract is divisible and the party not in default has enjoyed the bene t of part
+performance.
+
+--- Page 22 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+(f)
+When an indivisible contract for a lump sum is completely performed but badly the person who
+has performed the contract can claim the lump sum, but the other party can make a deduction for
+bad work.
+(3)
+Suit for specific performance: Where damages are not an adequate remedy in the case of breach of
+contract, the court may in its discretion on a suit for specific performance direct party in breach, to carry
+out his promise according to the terms of the contract.
+(4)
+Suit for injunction: Where a party to a contract is negating the terms of a contract, the court may by
+issuing an ‘injunction orders’, restrain him from doing what he promised not to do.
+(5)
+Damages: Remedy by way of Damages or Kind of Damages
+It entitles the injured party to recover compensation for the loss suffered by it due to the breach of
+contract, from the party who causes the breach.The damages which may be awarded to the injured
+party may be of the following kinds:
+(i)
+Ordinary damages: When a contract has been broken, the party who suffers by such breach is
+entitled to receive, from the party who has broken the contract, compensation for any loss or
+damage cause to him thereby, which naturally arose in the usual course of things from such
+breach.
+Such compensation is not to be given for any remote and indirect loss or damage sustained by
+reasons of the breach.
+(ii)
+Special damages: Where a party to a contract receives a notice of special circumstances affecting
+the contract, he will be liable not only for damages arising naturally and directly from the breach
+but also for special damages.
+(iii) Vindictive or Exemplary damages
+These damages may be awarded only in two cases -
+(a)
+for breach of promise to marry because it causes injury to his or her feelings; and
+(b)
+for wrongful dishonour by a banker of his customer’s cheque because in this case the
+injury due to wrongful dishonour to the drawer of cheque is so heavy that it causes loss
+of credit and reputation to him
+(iv) Nominal damages: Nominal damages are awarded where the plaintiff has proved that there has
+been a breach of contract but he has not in fact suffered any real damage. It is awarded just to
+establish the right to decree for the breach of contract. The amount may be a rupee or even 10
+paise.
+(v)
+Damages for deterioration caused by delay: In the case of deterioration caused to goods by delay,
+damages can be recovered from carrier even without notice. The word ‘deterioration’ not only
+implies physical damages to the goods but it may also mean loss of special opportunity for sale.
+(vi) Pre- fixed damages: Sometimes, parties to a contract stipulate at the time of its formation that on
+a breach of contract by any of them, a certain amount will be payable as damage. It may amount to
+either liquidated damages or a penalty.
+Q-29
+What is the difference between Liquidated  Damages and Penalty?
+Ans.
+Distinction between liquidated damages and penalty
+Penalty and liquidated damages have one thing in common that both are payable on the occurrence of
+a breach of contract. It is very difficult to draw a clear line of distinction between the two but certain
+principles as laid down below may be helpful.
+
+--- Page 23 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+1.
+If the sum payable is so large as to be far in excess of the probable damage on breach, it is
+certainly a penalty.
+2.
+Where a sum is expressed to be payable on a certain date and a further sum in the event of default
+being made, the latter sum is a penalty because mere delay in payment is unlikely to cause
+damage.
+3.
+The expression used by the parties is not nal. The court must nd out whether the sum fixed in the
+contract is in truth a penalty or liquidated damages. If the sum fixed is extravagant or exhorbitant,
+the court will regard it is as a penalty even if, it is termed as liquidated damages in the contract.
+4.
+The essence of a penalty is payment of money stipulated as a terrorem of the o ending party. The
+essence of liquidated damages is a genuine pre-estimate of the damage.
+5.
+English law makes a distinction between liquidated damages and penalty, but no such distinction
+is followed in India. The courts in India must ascertain the actual loss and award the same which
+amount must not, however exceed the sum so fixed in the contract. The courts have not to bother
+about the distinction but to award reasonable compensation not exceeding the sum so fixed.
+Q-30
+What is a Contingent Contract? State the Essentials And Rules of enforcement relating to Contingent
+Contract?
+Ans.
+Contingent Contract (Section 31)
+“A contract to do or not to do something, if some event, collateral to such contract, does or does not
+happen”.
+Contracts of Insurance, indemnity and guarantee fall under this category.
+Essentials of a contingent contract
+(a)
+The performance of a contingent contract would depend upon the happening or non-happening
+of some event or condition. The condition may be precedent or subsequent.
+(b)
+The event referred to is collateral to the contract. The event is not part of the contract. The event
+should be neither performance promised nor a consideration for a promise.
+(c)
+The contingent event should not be a mere ‘will’ of the promisor. The event should be contingent
+in addition to being the will of the promisor.
+(d)
+The event must be uncertain. Where the event is certain or bound to happen, the contract is due
+to be performed, then it is a not contingent contract.
+Rules relating to Enforcement
+The rules relating to enforcement of a contingent contract are as follows:
+(a)
+Enforcement of contracts contingent on an event happening: Where a contract identifies happening
+of a future contingent event, the contract cannot be enforced until and unless the event ‘happens’.
+If the happening of the event becomes impossible, then the contingent contract is void.
+(b)
+Enforcement of contracts contingent on an event not happening: Where a contingent contract is
+made contingent on a non-happening of an event, it can be enforced only when its happening
+becomes impossible.
+(c)
+A contract would cease to be enforceable if it is contingent upon the conduct of a living person
+when that living person does some thing to make the ‘event’ or ‘conduct’ as impossible of
+happening.
+Section 34 says that “if a contract is contingent upon as to how a person will act at an unspecified
+time, the event shall be considered to have become impossible when such person does anything
+
+--- Page 24 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+which renders it impossible that he should so act within any definite time or otherwise than
+under further contingencies”.
+(d)
+Contingent on happening of specified event within the fixed time: Section 35 says that Contingent
+contracts to do or not to do anything, if a specified uncertain event happens within a fixed time,
+becomes void if, at the expiration of time fixed, such event has not happened, or if, before the
+time fixed, such event becomes impossible.
+(e)
+Contingent on specified event not happening within fixed time: Section 35 also says that -
+“Contingent contracts to do or not to do anything, if a specified uncertain event does not happen
+within a fixed time, may be enforced by law when the time fixed has expired, and such event has
+not happened or before the time fixed has expired, if it becomes certain that such event will not
+happen”.
+(f)
+Contingent on an impossible event: Contingent agreements to do or not to do anything, if an
+impossible event happens are void, whether the impossibility of the event is known or not to the
+parties to the agreement at the time when it is made.
+Q-31
+State the difference between Contingent Contract and Wagering Agreement?
+Ans.
+Difference between a contingent contract and a wagering agreement
+Sr.
+Basis of difference
+Contingent contract
+Wagering agreement
+No.
+1.
+Meaning
+A  contingent  contract  is  a
+A  wagering  agreement  is  a
+contract  to  do  or  not  to  do
+promise  to  give  money  or
+something with reference to a
+money’s worth with reference to
+collateral  event  happening
+or an uncertain event happening
+not happening.
+or not happening.
+2.
+Reciprocal promises
+Contingent contract  may not
+A wagering agreement consists
+contain reciprocal promises.
+of reciprocal promises.
+3.
+Uncertain event
+In  a  contingent  contract,  the
+In  a  wagering  contract,  the
+event is collateral.
+uncertain  event  is  the  core factor.
+4.
+Nature of contract
+Contingent contract may not be
+A wagering agreement   is
+wagering in nature.
+essentially contingent in nature.
+5.
+Interest of contracting parties
+Contracting parties have
+The contracting parties have no
+interest in the subject matter in
+interest in the subject matter.
+contingent contract.
+6.
+Doctrine  of  mutuality  of  lose
+Contingent contract is not based
+A wagering contract is a game,
+and gain
+on doctrine of mutuality of lose
+losing   and gaining   alone
+and gain.
+matters.
+7.
+Effect of contract
+Contingent contract is valid.
+A wagering agreement is void.
+Q-32
+What is Quasi Contract? State the kinds of Quasi Contract?
+Ans.
+Quasi Contract
+
+A valid contract must contain certain essential elements, such as offer and acceptance, capacity to
+contract, consideration and free consent.
+
+--- Page 25 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+
+But sometimes the law implies a promise imposing obligations on one party and conferring right
+in favour of the other even when there is no offer, no acceptance, no genuine consent, lawful
+consideration, etc. and in fact neither agreement nor promise.
+
+Such cases are not contracts in the strict sense, but the Court recognises them as relations
+resembling those of contracts and enforces them as if they were contracts.
+
+Hence the term Quasi –contracts (i.e. resembling a contract).
+
+Quasi contracts are based on principles of equity, justice and good conscience.
+Types of Quasi Contract
+(a)
+Claim for necessaries supplied to persons incapable of contracting: If a person, incapable of
+entering into a contract, or anyone whom he is legally bound to support, is supplied by another
+person with necessaries suited to his condition in life, the person who has furnished such supplies
+is entitled to be reimbursed from the property of such incapable person.
+(b)
+Payment by an interested person: A person who is interested in the payment of money which
+another is bound by law to pay, and who therefore pays it, is entitled to be reimbursed by the
+other.
+(c)
+Obligation of person enjoying benefits of non-gratuitous act: As per the Act “where a person
+lawfully does anything for another person, or delivers anything to him not intending to do so
+gratuitously and such other person enjoys the benefit thereof, the latter is bound to pay
+compensation to the former in respect of, or to restore, the thing so done or delivered”.
+It thus follows that for a suit to succeed, the plaintiff  must prove:
+(i)
+that he had done the act or had delivered the thing lawfully;
+(ii)
+that he did not do so gratuitously; and
+(iii) that the other person enjoyed the benefit
+(d)
+Responsibility of finder of goods : ‘A person who finds goods belonging to another and takes them
+into his custody is subject to same responsibility as if he were a bailee’.
+Thus a  finder of lost goods has:
+(i)
+to take proper care of the property as man of ordinary prudence would take
+(ii)
+no right to appropriate the goods and
+(iii) to restore the goods if the owner is found.
+(e)
+Money paid by mistake or under coercion: “A person to whom money has been paid or anything
+delivered by mistake or under coercion, must repay or return it”.
+Every kind of payment of money or delivery of goods for every type of ‘mistake’ is recoverable.
+
+--- Page 26 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+CLASS WORK
+MULTIPLE CHOICE QUESTIONS
+1.
+An agreement enforceable by law is a
+(a)  Promise
+(b) Contract
+(c) Obligation
+(d) Lawful promise
+2.
+A void agreement is one which is -
+(a)
+Valid but not enforceable
+(b)  Enforceable at the option of both the parties
+(c)
+Enforceable at the option of one party
+(d)  Not enforceable in a court of law.
+3.
+An agreement which is enforceable by law at the option of one or more of the parties thereon but not
+at the option of the other or others is a
+(a)
+Valid Contract
+(b) Void contract
+(c)Voidable contract
+(d) Illegal contract
+4.
+When the consent of a party is not free, the contract is
+(a)
+Void
+(b) Voidable
+(c) Valid
+(d) Illegal
+5.
+In case of illegal agreements, the collateral agreements are:
+(a)
+Vaic
+(b) Void
+(c) Void able
+(d) None of these
+6.
+An offer may lapse by:
+(a)
+Revocation
+(b)
+Counter Offer
+(c)  Rejection of offer by offeree
+(d)
+All of these
+7.
+A proposal when accepted becomes a
+(a)
+Promise
+(b) Contract
+(c) Offer
+(d) Acceptance
+8.
+Which of the following statement is false? Consideration:
+(a)
+Must move at the desire of the promisor. (b)  May move from any person
+(c)
+Must be illusory
+(d)  Must be of some value
+9.
+Consideration must move at the desire of
+(a)
+Promisor
+(b) Promisee
+(c)
+Any other person
+(d) Any of these
+10.
+Consideration may be
+(a)
+Past
+(b)  Present
+(c) Future
+(d)  All of the above
+11.
+Consideration in simple term means:
+(a)
+Any this in return
+(b)  Something in return
+(c)
+Everything in return
+(d)  Nothing in return.
+12.
+Which of the following is not an exception to the rule - No consideration, No Contract.
+(a)
+Compensation for involuntary services
+(b)  Love & Affection
+(c)
+Contract of Agency
+(d)  Gift
+13.
+Ordinarily, a minor’s agreement is
+(a)
+Void ab initio
+(b) Voidable
+(c) Valid
+(d) Unlawful
+14.
+Consent is not said to be free when it is caused by
+(a)
+Coercion
+(b) Undue influence
+(c) Fraud
+(d) All of these
+
+--- Page 27 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+15.
+When the consent of a party is obtained by fraud, the contract is;
+(a)
+Void
+(b) Voidable
+(c) Valid
+(d) Illegal
+16.
+The threat to commit suicide amounts to
+(a)
+Coercion
+(b) Undue influence
+(c) Misrepresentation (d) Fraud
+17.
+Moral pressure is involved in the case of
+(a)
+Coercion
+(b) Undue Influence
+(c) Misrepresentation (d) Fraud
+18.
+A wrong representation when made without any intention to deceive the other party amounts to
+(a)
+Coercion
+(b) Undue influence
+(c) Misrepresentation
+(d) Fraud
+19.
+Which of the following statement is true?
+(a)
+A threat to commit suicide does not amount to coercion
+(b)
+Undue influence involves use of physical pressure
+(c)
+Ignorance of law is no excuse
+(d)
+Silence always amounts to fraud
+20.
+In case of illegal agreement the collateral agreements are:
+(a)
+Valid
+(b) Void
+(c) Voidable
+(d) Any of these
+21.
+An agreement the object or consideration of which is unlawful, is
+(a)
+Void
+(b) Valid
+(c) Voidable
+(d) Contingent
+22.
+An agreement is void if it is opposed to public policy. Which of the following is not covered by heads of
+public policy.
+(a)
+Trading with an enemy
+(b) Trafficking in public offices
+(c)
+Marriage brokerage contracts
+(d) Contracts to do impossible acts.
+23.
+On the valid performance of the contractual obligations by the parties, the contract
+(a)
+Is discharged
+(b)  becomes enforceable
+(c)
+becomes void
+(d)  None of these
+24.
+Which of the following person can perform the contract?
+(a)
+Promisor alone
+(b)  Legal representatives of promisor
+(c)
+Agent of the promisor
+(d)  All of these.
+25.
+A contract is discharged by novation which means the
+(a)
+cancellation of the existing contract
+(b)
+change in one or more terms of the contract
+(c)
+substitution of existing contract for a new one
+(d)
+none of these
+26.
+A contract is discharged by rescission which means the
+(a)  change in one or more terms of the contract (b)
+acceptance of lesser performance
+(c)  abandonment of rights by a party
+(d)
+cancellation of the existing contract
+27.
+When prior to the due date of performance, the promisor absolutely refuses to perform the contract,
+it is known as
+(a)
+abandonment of contract
+(b)  remission of contract
+(c)
+actual breach of contract
+(d)  anticipatory breach of contract
+
+--- Page 28 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+28.
+In case of anticipatory breach, the aggrieved party may treat the contract
+(a)
+as discharged and bring an immediate action for damages
+(b)
+as operative and wait till the time for performance arrives
+(c)
+exercise option either (a) or (b)
+(d)
+only option (a) is available
+29.
+In case of breach of contract, which of the following remedy is available to the aggrieved party?
+(a)  Suit for rescission
+(b)
+Suit for damages
+(c)  Suit for speci c performance
+(d)
+All of these
+30.
+Sometimes, a party is entitled to claim compensation in proportion to the work done by him. It is
+possible by a suit for
+(a)
+damage
+(b)  injunction
+(c) quantum meruit
+(d)  none of these
+31.
+Generally, the following damages are not recoverable?
+(a)
+Ordinary damages
+(b)
+Special damages
+(c)
+Remote damages
+(d)
+Nominal damages
+32.
+A contract dependent on the happening or non-happening of future uncertain event, is
+(a)
+Uncertain contract
+(b)  Contingent contract
+(c)
+Void contract
+(d)  Voidable contract
+33.
+A contingent contract is
+(a)
+Void
+(b)  Voidable
+(c) Valid
+(d)  Illegal
+34.
+A contingent contract dependent on the happening of future uncertain even can be enforced when the
+event
+(a)
+happens
+(b)  becomes impossible
+(c)
+does not happen
+(d)  either of these
+35.
+A agrees to pay ‘ One lakh to B if he brings on earth a star from sky. This is a contingent contract and
+(a)
+Illegal
+(b) Valid
+(c) Void able
+(d) Void
+THEORETICAL QUESTIONS
+Q-1
+“All contracts are agreements, but all agreements are not contracts”. Comment.
+Q-2
+Define the term “Acceptance’. Discuss the legal provisions relating to communication of acceptance.
+
+--- Page 29 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+Q-3
+Distinction between Void and Illegal Agreements.
+Q-4
+Define consideration. State the characteristics of a valid consideration.
+Q-5
+“To form a valid contract, consideration must be adequate”. Comment.
+Q-6
+“Mere silence does not amount to fraud”. Discuss.
+Q-7
+“Though a minor is not competent to contract, nothing in the Contract Act prevents him from making
+the other party bound to the minor”. Discuss.
+Q-8
+“An agreement, the meaning of which is not certain, is void”. Discuss.
+Q-9
+Who are disquafilied persons to do the contract?
+Q-10
+“The basic rule is that the promisor must perform exactly what he has promised to perform.” Explain
+stating the obligation of parties to contracts.
+Q-11
+Discuss the effect of accepting performance from third person.
+Q-12
+“When a party to a contract has refused to perform, or disabled himself from performing his promise in
+its entirety, the promisee may put an end to the contract”. Explain.
+Q-13
+ “An anticipatory breach of contract is a breach of contract occurring before the time xed for performance
+has arrived”. Discuss stating also the effect of anticipatory breach on contracts.
+Q-14
+“When a contract has been broken, the party who suers by such a breach is entitled to receive
+compensation for any loss or damage caused to him”. Discuss.
+Q-15
+ “Liquidated damage is a genuine pre-estimate of compensation of damages for certain anticipated
+breach of contract whereas Penalty on the other hand is an extravagant amount stipulated and is
+clearly unconscionable and has no comparison to the loss suffered by the parties”. Explain.
+Q-16
+Explain the meaning of ‘Contingent Contracts’ and state the rules relating to such contracts.
+Q-17
+ Explain the-term ‘Quasi Contracts’ and state their characteristics.
+HOME WORK
+PRACTICAL PROBLEMS
+1.
+A woman fraudulently represented to a firm of jewellers that she was the wife of a certain minister
+and thus obtainedtwo pearl necklaces on credit on the pretext of buying them. She subsequently sold
+those necklaces to a third party. Can the jeweller recover the necklaces from the third party?
+Ans.
+Hint : Third party has acquired right in good faith, so contract remains valid.
+2.
+Peter Feraro offered to pay ` 10,000 to any person, who would swim a hundred yards on Bombay’s sea
+coast on the New Year’s Day of 1983. A fisherman, without any information about the offer, claimed `
+10,000 on swimming the distance to save his life after he was accidently thrown overboard by the
+rough sea waves. Can the fisherman claim the money?
+Or
+A lost his dog. He sent his servant to search the dog. When he did not hear about the lost dog, he
+advertised a reward of ` 100 to any person who found the lost dog and returned it to A. The servant
+
+--- Page 30 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+found the lost dog and returned the dog to A. When the servant came to know about the reward of `
+100, he claimed the reward from A. Can he claim the reward? Give reasons.
+Ans.
+Hint : Acceptance in ignorance of offer is invalid.
+3.
+A took a bet of ` 500 with B that a certain horse would win a race. Under this agreement A had to deposit
+` 100 with B. Since A had no money, he approached his friend C, who advanced the sum to him on the
+condition that A was to return ` 200, if A should win bet against B, but to return nothing, if A lost, A won
+his bet against B. Can C recover ` 200 from A?
+Ans.
+Hint : Wagering Agreements are void.
+4.
+A invites B to see a picture with him. B accepts the offer. A purchases a ticket for B and waits for him at
+the cinema hall. B does not turn up. Has A any cause of action against B?
+Ans.
+Hint : Social Agreement.
+5.
+Anil Was due to perform a contract on 20th Feb. 1989, but on 16th Feb., repudiated his obligation. On
+23rd Feb., the contract became illegal through a change in law. Varun, the other party to the contract,
+filed a suit for breach of contract on 20th Feb. Decide the case with reasons.
+Ans.
+Hint : Anticipatory breach gives party a right to cancel the contract & claim damages.
+6.
+An employee agrees not to institute any legal proceedings against his employer. Can the agreement be
+enforced by the employer?
+Ans.
+Hint : Agreement in Restraint of legal proceedings is void.
+7.
+A borrower grants a power of attorney to bank authorising the bank to sell a certain property belonging
+to him and appropriate the sale proceeds towards his indebtedness. He also agrees not to institute any
+legal proceedings against the bank challenging either the bank’s actions or its statements of account.
+The property is sold for a low price and the bank calls upon the borrower to pay the balance. Can the
+borrower institute legal proceedings against the bank questioning the sale?
+Ans.
+Hint : Agreement in Restraint of legal proceedings is void.
+8.
+ A bank sanctions to an oil merchant a loan against the security of groundnut oil and an agreement is
+entered into between the bank and the borrower. Before the loan is disbursed, the Reserve Bank
+issues a statutory directive to all banks prohibiting grant of advances against the security of groundnut
+oil and, therefore, the bank cancels the loan. Can the customer sue the bank for damages for breach of
+contract?
+Ans.
+Hint : Contract discharged by impossibility deoesnot give party a right to claim damages.
+9.
+A stationer agreed to supply white paper on rate contract for one year. Later, due to steep increase in
+market prices, the contractor stated that he would suffer very heavy loss by supplying at the contracted
+rates. Under the contract, the rates were to be firm except for statutory levies. The stationer claimed
+that the contract had become commercially impossible of performance and that he was discharged.
+Comment on the legality of his plea.
+Ans.
+Hint : In commercial impossibility contract remains valid.
+10.
+A letter of allotment of shares was claimed to have been posted by a company, but the applicant
+denied to have received it. State if the contract is validly concluded in this case. Give reasons.
+
+--- Page 31 ---
+www.navkarinstitute.com
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+Ans.
+Hint : Contract is valid.
+11.
+A Hindu husband executed and registered a document in favour of his wife whereby, referring to
+quarrels and disagreement between the parties, he agreed to transfer one of his properties to her.
+Later, he refused to effect the transfer. Can the wife file a suit against the husband for enforcing the
+contract?
+Ans.
+Hint : Natural love and affection was missing.
+12.
+A, a tradesman, leaves his goods at B’s house by mistake. B treats the goods as his own and appropriates
+them. Can A file a suit against B for the price of such goods?
+Ans.
+Hint : Quasi Contract
+13.
+A Mohammedan lady asks for your advice whether she can sue her own father-in-law to recover arrears
+of allowance payable to her by the father-in-law under an agreement between her own father and her
+father-in-law in consideration of her marriage. Give reasons for your answer.
+Ans.
+Hints : Beneficiary can file a valid suit.
+14.
+Miss Kokila agreed to sing at the Star Theatre for a period of three months beginning 1st January 1996.
+She further agreed not to sing at any other theatre during this period. Is this contract enforceable
+against her?
+Ans.
+Hint : Suit for injuction.
+15.
+A, a minor, borrowed ` 5,000 on loan from B, stating that he was a major and executed a receipt in his
+favour. Discuss the remedies available to B to recover the money lent by him.
+Ans.
+Hint : Contract with a minor is Void-Ab-Initio.
+16.
+S, a singer, contracts with M, the manager of a theatre, to sing at the latter’s theatre for two evenings
+in every week during the next two months. M engages to pay her ` 300 for each evening’s performance.
+On the seventh evening, S wilfully absents herself from the theatre. M, in consequence, wants to
+rescind the contract and claim compensation for the loss suffered by him through the non-fulfilment
+of the contract by S. Advise.
+Ans.
+Hint : Party can cancel the contract & claim damages for breach of contract.
+17.
+A enters into a contract with B for supplying 800 tonnes of iron ore within 4 months. A fails to make
+delivery in time owing to difficulty in transport. But he admitted the availability of iron ore in the
+market at a higher price. Can A take the plea of impossibility of performance? Give reasons.
+Ans.
+Hint : No. Contract remains valid.
+18.
+X, an old lady, by a deed of gift made over certain property to her daughter D, with the specific
+directions that she should pay P, who is the sister of the old lady,  a sum of ` 100 per month. The same
+day D entered into an agreement with P to pay her the agreed amount. D now refuses to pay her aunt
+P, the above amount on the plea that no consideration had moved from P to D. P, therefore, sues D. Is
+the suit maintainable and can D be held liable to pay the amount? Decide.
+Ans.
+Hints : Consideration may move from promisee or any other person.
+19.
+A owes B rupees ten thousand. C, who is a friend of A, pays to B rupees five thousand in full satisfaction
+of B’s claim on A which B accepts. Can B now recover the balance from A? Give reasons.
+
+--- Page 32 ---
+CA FOUNDATION|BUSINESS LAWS
+  THE INDIAN CONTRACT ACT, 1872
+www.navkarinstitute.com
+Ans.
+Hint : In case of remission, contract is discharged.
+20.
+A is a minor aged seventeen years, who broke his right leg in a football match. He engaged B, a doctor,
+to set it. Does the doctor have a valid claim for his services? Give reasons.
+Ans.
+Hint : Minor’s property is liable for necessaries.
+21.
+A is sixteen years of age. He lends rupees one lakh to B on the strength of a mortgage executed in his
+favour. Is the borrower liable to repay the money? Give reasons.
+Ans.
+Hint : Contract for benefit of minor is valid.
+22.
+Explain the concept of ‘misrepresentation’ in matters of contract.
+Sohan induced Suraj to buy his motorcycle saying that it was in a very good condition. After taking the
+motorcycle, Suraj complained that there were many defects in the motorcycle. Sohan proposed to get
+it repaired and promised to pay 40% cost of repairs. After a few days, the motorcycle did not work at all.
+Now Suraj wants to rescind the contract. Decide giving reasons.
+Ans.
+Hint : One to ratification the contract is valid.
+23.
+Shambhu Dayal started “self service” system in his shop. Smt. Prakash entered the shop, took a basket
+and after taking articles of her choice into the basket reached the cashier for payments. The cashier
+refuses to accept the price. Can Shambhu Dayal be compelled to sell the said articles to Smt. Prakash?
+Decide.
+Ans.
+Hint : Invitation to an offer.
+24.
+Akhilesh entered into an agreement with She khar to deliver him (Shekhar) 5,000 bags to be manufactured
+in his factory. The bags could not be manufactured because of strike by the workers and Akhilesh failed to
+supply the said bags to Shekhar. Decide whether Akhilesh can be exempted from liability under the
+provisions of the Indian Contract Act, 1872.
+Ans.
+Hint : Strike is not a genuine Imp.
+---0---0----
+
+--- Page 33 ---
+B
+r
+o
+u
+g
+h
+t
+ 
+t
+o
+ 
+y
+o
+u
+ 
+b
+y
+www.navkardigitalinstitute.com
+Navkar 
+Digital 
+Institute
+India’s First Virtual Learning Program for CA Coaching
+ 
+ 
+ 
+ 
+S
+I
+N
+C
+E
+ 
+1
+9
+9
+7

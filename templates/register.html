@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexAI — Register</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:#0d1b3e; --gold:#c9a84c; --gold-light:#e8c97a;
+    --text:#e8edf5; --text-dim:#a8b4c8; --border:rgba(201,168,76,0.2);
+    --surface:rgba(255,255,255,0.04); --error:#ff6b6b; --success:#6bffb8;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:var(--navy); color:var(--text);
+    font-family:'DM Sans',sans-serif; min-height:100vh;
+    display:flex; align-items:center; justify-content:center;
+    background-image:radial-gradient(ellipse 80% 60% at 20% 10%, rgba(201,168,76,0.06) 0%, transparent 60%);
+  }
+  .card {
+    width:100%; max-width:460px;
+    background:rgba(255,255,255,0.03);
+    border:1px solid var(--border);
+    border-radius:12px; padding:3rem;
+    box-shadow:0 24px 64px rgba(0,0,0,0.4);
+  }
+  .logo {
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.8rem; font-weight:700;
+    color:var(--gold); text-align:center;
+    margin-bottom:0.5rem;
+  }
+  .logo span { color:var(--text); font-weight:400; }
+  .subtitle {
+    text-align:center; color:var(--text-dim);
+    font-size:0.88rem; margin-bottom:2rem;
+  }
+  .form-group { margin-bottom:1.2rem; }
+  label {
+    display:block; font-size:0.82rem;
+    color:var(--text-dim); margin-bottom:0.4rem;
+    letter-spacing:0.05em; text-transform:uppercase;
+  }
+  input {
+    width:100%; padding:0.75rem 1rem;
+    background:rgba(255,255,255,0.05);
+    border:1px solid var(--border);
+    border-radius:6px; color:var(--text);
+    font-family:'DM Sans',sans-serif; font-size:0.95rem;
+    transition:all 0.2s; outline:none;
+  }
+  input:focus { border-color:var(--gold); background:rgba(201,168,76,0.05); }
+  .btn {
+    width:100%; padding:0.9rem;
+    background:var(--gold); color:#0d1b3e;
+    border:none; border-radius:6px;
+    font-family:'DM Sans',sans-serif;
+    font-size:1rem; font-weight:600;
+    cursor:pointer; margin-top:1rem;
+    transition:all 0.2s;
+  }
+  .btn:hover { background:var(--gold-light); transform:translateY(-1px); }
+  .link {
+    text-align:center; margin-top:1.5rem;
+    font-size:0.88rem; color:var(--text-dim);
+  }
+  .link a { color:var(--gold); text-decoration:none; }
+  .link a:hover { text-decoration:underline; }
+  .flash {
+    padding:0.75rem 1rem; border-radius:6px;
+    font-size:0.88rem; margin-bottom:1rem;
+  }
+  .flash.error   { background:rgba(255,107,107,0.1); border:1px solid rgba(255,107,107,0.3); color:#ff9999; }
+  .flash.success { background:rgba(107,255,184,0.1); border:1px solid rgba(107,255,184,0.3); color:#99ffcc; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">Lex<span>AI</span></div>
+  <div class="subtitle">Create your attorney account</div>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="flash {{ category }}">{{ message }}</div>
+    {% endfor %}
+  {% endwith %}
+
+  <form method="POST" action="/register">
+    <div class="form-group">
+      <label>Full Name *</label>
+      <input type="text" name="full_name" placeholder="Adv. Jane Smith" required>
+    </div>
+    <div class="form-group">
+      <label>Email *</label>
+      <input type="email" name="email" placeholder="jane@lawfirm.com" required>
+    </div>
+    <div class="form-group">
+      <label>Phone</label>
+      <input type="text" name="phone" placeholder="+92 300 1234567">
+    </div>
+    <div class="form-group">
+      <label>Password *</label>
+      <input type="password" name="password" placeholder="Min 8 characters" required>
+    </div>
+    <div class="form-group">
+      <label>Confirm Password *</label>
+      <input type="password" name="confirm_password" placeholder="Repeat password" required>
+    </div>
+    <button type="submit" class="btn">Create Account →</button>
+  </form>
+
+  <div class="link">
+    Already have an account? <a href="/login">Log In</a>
+  </div>
+</div>
+</body>
+</html>

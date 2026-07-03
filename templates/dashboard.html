@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexAI — Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:#0d1b3e; --navy-mid:#162447; --gold:#c9a84c;
+    --gold-light:#e8c97a; --text:#e8edf5; --text-dim:#a8b4c8;
+    --border:rgba(201,168,76,0.2); --surface:rgba(255,255,255,0.04);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--navy); color:var(--text); font-family:'DM Sans',sans-serif; min-height:100vh; display:flex; }
+
+  /* SIDEBAR */
+  .sidebar {
+    width:260px; min-height:100vh;
+    background:rgba(255,255,255,0.03);
+    border-right:1px solid var(--border);
+    display:flex; flex-direction:column;
+    padding:2rem 1.5rem; position:fixed; left:0; top:0;
+  }
+  .logo { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:700; color:var(--gold); margin-bottom:2rem; }
+  .logo span { color:var(--text); font-weight:400; }
+  .nav-item {
+    display:flex; align-items:center; gap:0.75rem;
+    padding:0.75rem 1rem; border-radius:6px;
+    color:var(--text-dim); text-decoration:none;
+    font-size:0.9rem; transition:all 0.2s; margin-bottom:0.3rem;
+  }
+  .nav-item:hover { background:var(--surface); color:var(--text); }
+  .nav-item.active { background:rgba(201,168,76,0.1); color:var(--gold); border:1px solid var(--border); }
+  .sidebar-bottom { margin-top:auto; }
+  .user-info { padding:1rem; background:var(--surface); border-radius:8px; border:1px solid var(--border); margin-bottom:1rem; }
+  .user-name { font-size:0.9rem; font-weight:500; color:var(--text); }
+  .user-email { font-size:0.78rem; color:var(--text-dim); margin-top:0.2rem; }
+
+  /* MAIN */
+  .main { margin-left:260px; flex:1; padding:2.5rem; }
+  .page-title { font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:600; margin-bottom:0.5rem; }
+  .page-sub { color:var(--text-dim); font-size:0.9rem; margin-bottom:2.5rem; }
+
+  /* UPLOAD CARD */
+  .upload-card {
+    background:var(--surface); border:2px dashed var(--border);
+    border-radius:12px; padding:2.5rem; text-align:center;
+    margin-bottom:2.5rem; transition:all 0.3s; cursor:pointer;
+  }
+  .upload-card:hover { border-color:var(--gold); background:rgba(201,168,76,0.04); }
+  .upload-icon { font-size:2.5rem; margin-bottom:1rem; }
+  .upload-card h3 { font-family:'Cormorant Garamond',serif; font-size:1.3rem; margin-bottom:0.5rem; }
+  .upload-card p { color:var(--text-dim); font-size:0.88rem; margin-bottom:1.5rem; }
+  .upload-form { display:flex; gap:1rem; align-items:center; justify-content:center; flex-wrap:wrap; }
+  .input-file { display:none; }
+  .file-label {
+    padding:0.7rem 1.5rem; border:1px solid var(--border);
+    border-radius:6px; cursor:pointer; font-size:0.88rem;
+    color:var(--text-dim); transition:all 0.2s;
+  }
+  .file-label:hover { border-color:var(--gold); color:var(--gold); }
+  .session-input {
+    padding:0.7rem 1rem; background:rgba(255,255,255,0.05);
+    border:1px solid var(--border); border-radius:6px;
+    color:var(--text); font-family:'DM Sans',sans-serif;
+    font-size:0.88rem; outline:none; width:220px;
+  }
+  .session-input:focus { border-color:var(--gold); }
+  .btn-upload {
+    padding:0.7rem 1.5rem; background:var(--gold);
+    color:#0d1b3e; border:none; border-radius:6px;
+    font-weight:600; cursor:pointer; font-size:0.88rem; transition:all 0.2s;
+  }
+  .btn-upload:hover { background:var(--gold-light); }
+  
+  /* FEATURES GRID */
+  .features-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin-bottom:2.5rem; }
+  .feature-card {
+    padding:1.5rem; background:var(--surface);
+    border:1px solid var(--border); border-radius:8px;
+    text-align:center; transition:all 0.2s;
+  }
+  .feature-card:hover { border-color:rgba(201,168,76,0.4); transform:translateY(-2px); }
+  .feature-card .icon { font-size:1.8rem; margin-bottom:0.75rem; }
+  .feature-card h4 { font-size:0.9rem; font-weight:500; color:var(--text); }
+
+  /* SESSIONS */
+  .section-title { font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-weight:600; margin-bottom:1rem; color:var(--text); }
+  .session-card {
+    display:flex; align-items:center; justify-content:space-between;
+    padding:1rem 1.5rem; background:var(--surface);
+    border:1px solid var(--border); border-radius:8px;
+    margin-bottom:0.75rem; transition:all 0.2s;
+  }
+  .session-card:hover { border-color:rgba(201,168,76,0.4); }
+  .session-name { font-weight:500; font-size:0.95rem; }
+  .session-file { font-size:0.8rem; color:var(--text-dim); margin-top:0.2rem; }
+  .session-actions { display:flex; gap:0.5rem; }
+  .btn-sm {
+    padding:0.4rem 1rem; border-radius:4px;
+    font-size:0.82rem; cursor:pointer; text-decoration:none;
+    transition:all 0.2s; font-family:'DM Sans',sans-serif;
+  }
+  .btn-open { background:var(--gold); color:#0d1b3e; border:none; font-weight:600; }
+  .btn-open:hover { background:var(--gold-light); }
+
+  /* STATUS */
+  #upload-status { margin-top:1rem; font-size:0.88rem; color:var(--gold); text-align:center; }
+
+  .flash-container { position:fixed; top:1.5rem; right:1.5rem; z-index:200; }
+  .flash { padding:0.75rem 1.2rem; border-radius:6px; font-size:0.88rem; margin-bottom:0.5rem; }
+  .flash.error   { background:rgba(255,107,107,0.1); border:1px solid rgba(255,107,107,0.3); color:#ff9999; }
+  .flash.success { background:rgba(107,255,184,0.1); border:1px solid rgba(107,255,184,0.3); color:#99ffcc; }
+  .flash.info    { background:rgba(107,184,255,0.1); border:1px solid rgba(107,184,255,0.3); color:#99ccff; }
+</style>
+</head>
+<body>
+
+<div class="flash-container">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="flash {{ category }}">{{ message }}</div>
+    {% endfor %}
+  {% endwith %}
+</div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="logo">Lex<span>AI</span></div>
+  <a href="/dashboard" class="nav-item active">🏠 Dashboard</a>
+  <a href="/profile" class="nav-item">👤 My Profile</a>
+  <a href="/logout" class="nav-item">🚪 Logout</a>
+  <div class="sidebar-bottom">
+    <div class="user-info">
+      <div class="user-name">{{ user.full_name }}</div>
+      <div class="user-email">{{ user.email }}</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+  <div class="page-title">Welcome, {{ user.full_name.split()[0] }} 👋</div>
+  <div class="page-sub">Upload a contract to get started with AI-powered legal analysis.</div>
+
+  <!-- UPLOAD -->
+  <div class="upload-card" onclick="document.getElementById('pdf_file').click()">
+    <div class="upload-icon">📂</div>
+    <h3>Upload a Contract</h3>
+    <p>PDF files only · Max 16MB · Grounded analysis, zero hallucinations</p>
+    <div class="upload-form" onclick="event.stopPropagation()">
+      <input type="file" id="pdf_file" class="input-file" accept=".pdf">
+      <label for="pdf_file" class="file-label" id="file-label">📎 Choose PDF</label>
+      <input type="text" id="session_name" class="session-input" placeholder="Session name (optional)">
+      <button class="btn-upload" onclick="uploadFile()">Analyze →</button>
+    </div>
+    <div id="upload-status"></div>
+  </div>
+  <!-- MULTI DOCUMENT UPLOAD -->
+<div class="upload-card" style="margin-bottom:1.5rem;">
+  <div class="upload-icon">📚</div>
+  <h3>Multi-Document Upload</h3>
+  <p>Upload up to 5 contracts at once — analyze and cross-reference together</p>
+  <div class="upload-form" onclick="event.stopPropagation()">
+    <input type="file" id="pdf_files" class="input-file" accept=".pdf" multiple>
+    <label for="pdf_files" class="file-label" id="multi-file-label">📎 Choose PDFs (max 5)</label>
+    <input type="text" id="multi_session_name" class="session-input" placeholder="Session name (optional)">
+    <button class="btn-upload" onclick="uploadMultiple()">Analyze All →</button>
+  </div>
+  <div id="multi-upload-status"></div>
+</div>
+
+<!-- CONTRACT COMPARISON -->
+<div class="upload-card" style="border-color:rgba(201,168,76,0.3);">
+  <div class="upload-icon">⚖️</div>
+  <h3>Contract Comparison</h3>
+  <p>Upload 2 versions of a contract — get instant side-by-side analysis</p>
+  <a href="/compare" class="btn-primary" style="display:inline-block; margin-top:0.5rem;">
+    Go to Comparison Tool →
+  </a>
+</div>
+
+  <!-- FEATURES -->
+
+  <div class="section-title">Available Features</div>
+  <div class="features-grid">
+    <div class="feature-card"><div class="icon">📋</div><h4>Contract Analyzer</h4></div>
+    <div class="feature-card"><div class="icon">⚠️</div><h4>Risk Flagging</h4></div>
+    <div class="feature-card"><div class="icon">❓</div><h4>Legal Q&A</h4></div>
+    <div class="feature-card"><div class="icon">📄</div><h4>Plain English Summary</h4></div>
+    <div class="feature-card"><div class="icon">🔍</div><h4>Missing Clauses</h4></div>
+    <div class="feature-card"><div class="icon">📥</div><h4>Export DOCX</h4></div>
+  </div>
+
+  <!-- PREVIOUS SESSIONS -->
+  {% if sessions %}
+  <div class="section-title">Previous Sessions</div>
+  {% for s in sessions %}
+  <div class="session-card">
+    <div>
+      <div class="session-name">{{ s.session_name }}</div>
+      <div class="session-file">📄 {{ s.document_filename }} · {{ s.created_at.strftime('%b %d, %Y') }}</div>
+    </div>
+    <div class="session-actions">
+      <a href="/chat/{{ s.id }}" class="btn-sm btn-open">Open →</a>
+    </div>
+  </div>
+  {% endfor %}
+  {% else %}
+  <div style="color:var(--text-dim); font-size:0.9rem; text-align:center; padding:2rem;">
+    No sessions yet — upload your first contract above! ⬆️
+  </div>
+  {% endif %}
+</div>
+
+<script>
+// Show selected filename
+document.getElementById('pdf_file').addEventListener('change', function() {
+  const label = document.getElementById('file-label');
+  label.textContent = this.files[0] ? '✅ ' + this.files[0].name : '📎 Choose PDF';
+});
+
+async function uploadFile() {
+  const fileInput = document.getElementById('pdf_file');
+  const sessionName = document.getElementById('session_name').value;
+  const status = document.getElementById('upload-status');
+
+  if (!fileInput.files[0]) {
+    status.textContent = 'Please select a PDF file first.';
+    status.style.color = '#ff9999';
+    return;
+  }
+
+  status.innerHTML = `
+  <div style="color:var(--gold); font-size:0.9rem;">
+    <div>Processing document... please wait</div>
+    <div style="margin-top:0.5rem; color:var(--text-dim); font-size:0.82rem;">
+      First upload may take 2-3 minutes — embedding model is loading.
+    </div>
+    <div style="margin-top:1rem;">
+      <div style="width:100%; background:rgba(255,255,255,0.08); border-radius:50px; height:6px;">
+        <div id="progress-bar" style="width:0%; background:var(--gold); height:6px; border-radius:50px; transition:width 0.5s;"></div>
+      </div>
+    </div>
+  </div>`;
+
+  let progress = 0;
+  const progressInterval = setInterval(() => {
+    progress += 2;
+    if (progress > 90) { clearInterval(progressInterval); }
+    const bar = document.getElementById('progress-bar');
+    if (bar) bar.style.width = progress + '%';
+  }, 1000);
+
+  const formData = new FormData();
+  formData.append('pdf_file', fileInput.files[0]);
+  formData.append('session_name', sessionName);
+
+  try {
+    const response = await fetch('/upload', { method: 'POST', body: formData });
+    const data = await response.json();
+
+    if (data.success) {
+      clearInterval(progressInterval);
+      const bar = document.getElementById('progress-bar');
+      if (bar) bar.style.width = '100%';
+      status.innerHTML += `<div style="color:#6bffb8; margin-top:0.5rem;">Document processed! Redirecting...</div>`;
+      setTimeout(() => { window.location.href = '/chat/' + data.session_id; }, 1000);
+    } else {
+      clearInterval(progressInterval);
+      status.textContent = 'Error: ' + data.error;
+      status.style.color = '#ff9999';
+    }
+  } catch (err) {
+    clearInterval(progressInterval);
+    status.textContent = 'Upload failed: ' + err.message;
+    status.style.color = '#ff9999';
+  }
+}
+
+document.getElementById('pdf_files').addEventListener('change', function() {
+  const label = document.getElementById('multi-file-label');
+  const count = this.files.length;
+  label.textContent = count > 0 ? `✅ ${count} file(s) selected` : '📎 Choose PDFs (max 5)';
+});
+
+async function uploadMultiple() {
+  const filesInput = document.getElementById('pdf_files');
+  const sessionName = document.getElementById('multi_session_name').value;
+  const status = document.getElementById('multi-upload-status');
+
+  if (!filesInput.files.length) {
+    status.textContent = 'Please select at least one PDF.';
+    status.style.color = '#ff9999';
+    return;
+  }
+
+  status.textContent = 'Processing documents... please wait';
+  status.style.color = 'var(--gold)';
+
+  const formData = new FormData();
+  for (let file of filesInput.files) {
+    formData.append('pdf_files', file);
+  }
+  formData.append('session_name', sessionName);
+
+  try {
+    const response = await fetch('/upload-multi', { method: 'POST', body: formData });
+    const data = await response.json();
+
+    if (data.success) {
+      status.textContent = data.doc_count + ' documents processed! Redirecting...';
+      status.style.color = '#6bffb8';
+      setTimeout(() => { window.location.href = '/chat/' + data.session_id; }, 1000);
+    } else {
+      status.textContent = 'Error: ' + data.error;
+      status.style.color = '#ff9999';
+    }
+  } catch (err) {
+    status.textContent = 'Upload failed: ' + err.message;
+    status.style.color = '#ff9999';
+  }
+}
+</script>
+</body>
+</html>

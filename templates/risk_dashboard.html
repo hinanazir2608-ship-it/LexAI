@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexAI — Risk Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root {
+    --navy:#0d1b3e; --gold:#c9a84c; --gold-light:#e8c97a;
+    --text:#e8edf5; --text-dim:#a8b4c8; --border:rgba(201,168,76,0.2);
+    --surface:rgba(255,255,255,0.04);
+    --low:#4caf7d; --medium:#f0c040; --high:#e07b39; --critical:#e05252;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--navy); color:var(--text); font-family:'DM Sans',sans-serif; min-height:100vh; display:flex; }
+
+  /* SIDEBAR */
+  .sidebar { width:260px; min-height:100vh; background:rgba(255,255,255,0.03); border-right:1px solid var(--border); display:flex; flex-direction:column; padding:2rem 1.5rem; position:fixed; }
+  .logo { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:700; color:var(--gold); margin-bottom:2rem; }
+  .logo span { color:var(--text); font-weight:400; }
+  .nav-item { display:flex; align-items:center; gap:0.75rem; padding:0.75rem 1rem; border-radius:6px; color:var(--text-dim); text-decoration:none; font-size:0.9rem; transition:all 0.2s; margin-bottom:0.3rem; }
+  .nav-item:hover { background:var(--surface); color:var(--text); }
+  .doc-info { padding:1rem; background:var(--surface); border-radius:8px; border:1px solid var(--border); font-size:0.82rem; margin-top:auto; }
+  .doc-name { color:var(--gold); font-weight:500; }
+  .doc-file { color:var(--text-dim); margin-top:0.3rem; }
+
+  /* MAIN */
+  .main { margin-left:260px; flex:1; padding:2.5rem; }
+
+  /* TOPBAR */
+  .topbar { display:flex; align-items:center; justify-content:space-between; margin-bottom:2rem; }
+  .topbar h1 { font-family:'Cormorant Garamond',serif; font-size:1.8rem; font-weight:600; }
+  .topbar-actions { display:flex; gap:0.75rem; }
+  .btn-sm { padding:0.5rem 1.2rem; border-radius:4px; font-size:0.84rem; cursor:pointer; text-decoration:none; transition:all 0.2s; font-family:'DM Sans',sans-serif; border:none; }
+  .btn-gold { background:var(--gold); color:#0d1b3e; font-weight:600; }
+  .btn-gold:hover { background:var(--gold-light); }
+  .btn-outline { background:transparent; border:1px solid var(--border); color:var(--text-dim); }
+  .btn-outline:hover { border-color:var(--gold); color:var(--gold); }
+
+  /* SCORE HERO */
+  .score-hero { display:grid; grid-template-columns:300px 1fr; gap:2rem; margin-bottom:2rem; align-items:center; }
+  .score-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:2rem; text-align:center; }
+  .score-number { font-family:'Cormorant Garamond',serif; font-size:5rem; font-weight:700; line-height:1; margin:1rem 0; }
+  .score-label { font-size:0.8rem; color:var(--text-dim); letter-spacing:0.15em; text-transform:uppercase; }
+  .verdict-badge { display:inline-block; padding:0.4rem 1.2rem; border-radius:50px; font-size:0.82rem; font-weight:600; letter-spacing:0.1em; margin-top:1rem; }
+  .verdict-LOW { background:rgba(76,175,125,0.15); color:var(--low); border:1px solid rgba(76,175,125,0.3); }
+  .verdict-MEDIUM { background:rgba(240,192,64,0.15); color:var(--medium); border:1px solid rgba(240,192,64,0.3); }
+  .verdict-HIGH { background:rgba(224,123,57,0.15); color:var(--high); border:1px solid rgba(224,123,57,0.3); }
+  .verdict-CRITICAL { background:rgba(224,82,82,0.15); color:var(--critical); border:1px solid rgba(224,82,82,0.3); }
+  .verdict-UNKNOWN { background:rgba(138,154,181,0.15); color:var(--text-dim); border:1px solid var(--border); }
+
+  /* GAUGE */
+  .gauge-wrap { position:relative; width:200px; margin:0 auto; }
+
+  /* CHART CARD */
+  .chart-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:2rem; }
+  .chart-card h3 { font-family:'Cormorant Garamond',serif; font-size:1.2rem; margin-bottom:1.5rem; color:var(--text); }
+
+  /* CATEGORY BARS */
+  .categories-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:2rem; }
+  .category-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:1.5rem; }
+  .category-card h3 { font-family:'Cormorant Garamond',serif; font-size:1.1rem; margin-bottom:1.2rem; }
+  .cat-item { margin-bottom:1rem; }
+  .cat-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem; }
+  .cat-name { font-size:0.85rem; color:var(--text-dim); }
+  .cat-score { font-size:0.85rem; font-weight:600; }
+  .progress-bar { height:8px; background:rgba(255,255,255,0.08); border-radius:50px; overflow:hidden; }
+  .progress-fill { height:100%; border-radius:50px; transition:width 1s ease; }
+  .score-low    { background:var(--low); color:var(--low); }
+  .score-medium { background:var(--medium); color:var(--medium); }
+  .score-high   { background:var(--high); color:var(--high); }
+  .score-critical { background:var(--critical); color:var(--critical); }
+
+  /* RISKS & SAFE */
+  .insights-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:2rem; }
+  .insight-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:1.5rem; }
+  .insight-card h3 { font-family:'Cormorant Garamond',serif; font-size:1.1rem; margin-bottom:1rem; }
+  .risk-item { display:flex; gap:0.75rem; align-items:flex-start; padding:0.75rem 0; border-bottom:1px solid rgba(255,255,255,0.05); font-size:0.88rem; color:var(--text-dim); line-height:1.5; }
+  .risk-item:last-child { border-bottom:none; }
+  .risk-dot { width:8px; height:8px; border-radius:50%; margin-top:5px; flex-shrink:0; }
+  .dot-risk { background:var(--critical); }
+  .dot-safe { background:var(--low); }
+
+  /* DISCLAIMER */
+  .disclaimer { padding:1rem 1.5rem; background:rgba(201,168,76,0.05); border:1px solid var(--border); border-radius:8px; font-size:0.8rem; color:var(--text-dim); line-height:1.6; }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="logo">Lex<span>AI</span></div>
+  <a href="/dashboard" class="nav-item">🏠 Dashboard</a>
+  <a href="/chat/{{ chat_session.id }}" class="nav-item">💬 Back to Chat</a>
+  <a href="/profile" class="nav-item">👤 Profile</a>
+  <a href="/logout" class="nav-item">🚪 Logout</a>
+  <div class="doc-info">
+    <div class="doc-name">📋 {{ chat_session.session_name }}</div>
+    <div class="doc-file">{{ chat_session.document_filename }}</div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="topbar">
+    <h1>📊 Risk Score Dashboard</h1>
+    <div class="topbar-actions">
+      <a href="/chat/{{ chat_session.id }}" class="btn-sm btn-outline">💬 Chat</a>
+      <a href="/download/{{ chat_session.id }}" class="btn-sm btn-gold">📥 Export DOCX</a>
+    </div>
+  </div>
+
+  <!-- SCORE HERO -->
+  <div class="score-hero">
+    <div class="score-card">
+      <div class="score-label">Contract Risk Score</div>
+      {% set score = risk.overall_score %}
+      {% if score <= 30 %}
+        <div class="score-number" style="color:var(--low);">{{ score }}</div>
+        <div class="verdict-badge verdict-LOW">✅ LOW RISK</div>
+      {% elif score <= 60 %}
+        <div class="score-number" style="color:var(--medium);">{{ score }}</div>
+        <div class="verdict-badge verdict-MEDIUM">⚠️ MEDIUM RISK</div>
+      {% elif score <= 80 %}
+        <div class="score-number" style="color:var(--high);">{{ score }}</div>
+        <div class="verdict-badge verdict-HIGH">🔶 HIGH RISK</div>
+      {% else %}
+        <div class="score-number" style="color:var(--critical);">{{ score }}</div>
+        <div class="verdict-badge verdict-CRITICAL">🔴 CRITICAL RISK</div>
+      {% endif %}
+      <div style="font-size:0.78rem; color:var(--text-dim); margin-top:1rem;">
+        0 = Safe · 100 = Extremely Risky
+      </div>
+    </div>
+
+    <!-- RADAR CHART -->
+    <div class="chart-card">
+      <h3>Risk Breakdown by Category</h3>
+      <canvas id="radarChart" height="250"></canvas>
+    </div>
+  </div>
+
+  <!-- CATEGORY BARS -->
+  <div class="categories-grid">
+    <div class="category-card">
+      <h3>📊 Category Scores</h3>
+      {% for key, cat in risk.categories.items() %}
+      {% set cs = cat.score %}
+      <div class="cat-item">
+        <div class="cat-header">
+          <span class="cat-name">{{ cat.label }}</span>
+          <span class="cat-score
+            {% if cs <= 30 %}score-low
+            {% elif cs <= 60 %}score-medium
+            {% elif cs <= 80 %}score-high
+            {% else %}score-critical{% endif %}">
+            {{ cs }}/100
+          </span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill
+            {% if cs <= 30 %}score-low
+            {% elif cs <= 60 %}score-medium
+            {% elif cs <= 80 %}score-high
+            {% else %}score-critical{% endif %}"
+            style="width:{{ cs }}%">
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- BAR CHART -->
+    <div class="category-card">
+      <h3>📈 Visual Comparison</h3>
+      <canvas id="barChart" height="220"></canvas>
+    </div>
+  </div>
+
+  <!-- RISKS & SAFE POINTS -->
+  <div class="insights-grid">
+    <div class="insight-card">
+      <h3>🔴 Top Risk Flags</h3>
+      {% if risk.top_risks %}
+        {% for r in risk.top_risks %}
+        <div class="risk-item">
+          <div class="risk-dot dot-risk"></div>
+          <span>{{ r }}</span>
+        </div>
+        {% endfor %}
+      {% else %}
+        <div style="color:var(--text-dim); font-size:0.88rem;">No major risks detected.</div>
+      {% endif %}
+    </div>
+
+    <div class="insight-card">
+      <h3>✅ Safe Points</h3>
+      {% if risk.safe_points %}
+        {% for s in risk.safe_points %}
+        <div class="risk-item">
+          <div class="risk-dot dot-safe"></div>
+          <span>{{ s }}</span>
+        </div>
+        {% endfor %}
+      {% else %}
+        <div style="color:var(--text-dim); font-size:0.88rem;">No safe points identified.</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    ⚖️ This risk score is generated by AI for informational purposes only. It does not constitute legal advice. Always consult a qualified attorney before making any legal decisions based on this analysis.
+  </div>
+
+</div>
+
+<script>
+  // Data from Flask
+  const categories = {{ risk.categories | tojson }};
+  const labels = Object.values(categories).map(c => c.label);
+  const scores = Object.values(categories).map(c => c.score);
+
+  // Color per score
+  function getColor(score, alpha=1) {
+    if (score <= 30)  return `rgba(76,175,125,${alpha})`;
+    if (score <= 60)  return `rgba(240,192,64,${alpha})`;
+    if (score <= 80)  return `rgba(224,123,57,${alpha})`;
+    return `rgba(224,82,82,${alpha})`;
+  }
+
+  // RADAR CHART
+  new Chart(document.getElementById('radarChart'), {
+    type: 'radar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Risk Score',
+        data: scores,
+        backgroundColor: 'rgba(201,168,76,0.15)',
+        borderColor: 'rgba(201,168,76,0.8)',
+        pointBackgroundColor: scores.map(s => getColor(s)),
+        pointRadius: 5,
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        r: {
+          min: 0, max: 100,
+          ticks: { color: '#a8b4c8', font: { size: 10 } },
+          grid: { color: 'rgba(255,255,255,0.08)' },
+          pointLabels: { color: '#a8b4c8', font: { size: 11 } }
+        }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+
+  // BAR CHART
+  new Chart(document.getElementById('barChart'), {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: scores,
+        backgroundColor: scores.map(s => getColor(s, 0.7)),
+        borderColor: scores.map(s => getColor(s)),
+        borderWidth: 1,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          min: 0, max: 100,
+          ticks: { color: '#a8b4c8' },
+          grid: { color: 'rgba(255,255,255,0.06)' }
+        },
+        x: {
+          ticks: { color: '#a8b4c8', font: { size: 10 } },
+          grid: { display: false }
+        }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+</script>
+</body>
+</html>

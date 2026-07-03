@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexAI — Your Personal Legal Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0d1b3e;
+    --navy-mid: #162447;
+    --gold: #c9a84c;
+    --gold-light: #e8c97a;
+    --charcoal: #1e2a3a;
+    --muted: #8a9ab5;
+    --text: #e8edf5;
+    --text-dim: #a8b4c8;
+    --surface: rgba(255,255,255,0.04);
+    --border: rgba(201,168,76,0.2);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: var(--navy);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Background texture */
+  body::before {
+    content:'';
+    position:fixed; inset:0;
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 10%, rgba(201,168,76,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 80% at 80% 90%, rgba(13,27,62,0.8) 0%, transparent 70%),
+      repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(255,255,255,0.006) 40px, rgba(255,255,255,0.006) 41px);
+    pointer-events:none; z-index:0;
+  }
+
+  nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:1.2rem 4rem;
+    display:flex; align-items:center; justify-content:space-between;
+    border-bottom: 1px solid var(--border);
+    background: rgba(13,27,62,0.85);
+    backdrop-filter: blur(16px);
+  }
+  .logo {
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.7rem; font-weight:700;
+    color: var(--gold);
+    letter-spacing:0.05em;
+  }
+  .logo span { color: var(--text); font-weight:400; }
+  .nav-links { display:flex; gap:2rem; align-items:center; }
+  .nav-links a {
+    color:var(--text-dim); text-decoration:none;
+    font-size:0.9rem; font-weight:500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color:var(--gold); }
+  .btn-nav {
+    padding:0.55rem 1.5rem;
+    border:1px solid var(--gold);
+    border-radius:3px;
+    color:var(--gold) !important;
+    transition: all 0.2s !important;
+  }
+  .btn-nav:hover { background:var(--gold); color:var(--navy) !important; }
+
+  /* HERO */
+  .hero {
+    position:relative; z-index:1;
+    min-height:100vh;
+    display:flex; align-items:center; justify-content:center;
+    text-align:center;
+    padding:8rem 2rem 4rem;
+  }
+  .hero-inner { max-width:800px; }
+  .hero-badge {
+    display:inline-block;
+    padding:0.4rem 1.2rem;
+    border:1px solid var(--border);
+    border-radius:50px;
+    font-size:0.78rem;
+    color:var(--gold);
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+    margin-bottom:2rem;
+    background: rgba(201,168,76,0.06);
+    animation: fadeUp 0.6s ease both;
+  }
+  .hero h1 {
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(3rem,7vw,5.5rem);
+    font-weight:700;
+    line-height:1.1;
+    margin-bottom:1.5rem;
+    animation: fadeUp 0.7s 0.1s ease both;
+  }
+  .hero h1 em {
+    font-style:italic; color:var(--gold);
+  }
+  .hero p {
+    font-size:1.1rem;
+    color:var(--text-dim);
+    line-height:1.7;
+    max-width:580px; margin:0 auto 3rem;
+    animation: fadeUp 0.7s 0.2s ease both;
+  }
+  .hero-cta {
+    display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;
+    animation: fadeUp 0.7s 0.3s ease both;
+  }
+  .btn-primary {
+    padding:0.9rem 2.5rem;
+    background:var(--gold);
+    color:var(--navy);
+    border:none; border-radius:3px;
+    font-family:'DM Sans',sans-serif;
+    font-size:0.95rem; font-weight:600;
+    cursor:pointer; text-decoration:none;
+    transition: all 0.2s;
+    letter-spacing:0.03em;
+  }
+  .btn-primary:hover { background:var(--gold-light); transform:translateY(-2px); box-shadow:0 8px 24px rgba(201,168,76,0.3); }
+  .btn-outline {
+    padding:0.9rem 2.5rem;
+    background:transparent;
+    color:var(--text);
+    border:1px solid rgba(232,237,245,0.3);
+    border-radius:3px;
+    font-family:'DM Sans',sans-serif;
+    font-size:0.95rem; font-weight:400;
+    cursor:pointer; text-decoration:none;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover { border-color:var(--gold); color:var(--gold); }
+
+  /* FEATURES GRID */
+  .features {
+    position:relative; z-index:1;
+    padding:6rem 4rem;
+    max-width:1200px; margin:0 auto;
+  }
+  .section-label {
+    font-size:0.75rem; letter-spacing:0.2em;
+    text-transform:uppercase; color:var(--gold);
+    margin-bottom:1rem;
+  }
+  .section-title {
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(2rem,4vw,3rem); font-weight:600;
+    margin-bottom:3rem; color:var(--text);
+  }
+  .features-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:1.5rem;
+  }
+  .feature-card {
+    padding:2rem;
+    border:1px solid var(--border);
+    border-radius:6px;
+    background:var(--surface);
+    transition: all 0.3s;
+    position:relative; overflow:hidden;
+  }
+  .feature-card::before {
+    content:''; position:absolute;
+    top:0; left:0; right:0; height:2px;
+    background:linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity:0; transition:opacity 0.3s;
+  }
+  .feature-card:hover { border-color:rgba(201,168,76,0.4); transform:translateY(-4px); }
+  .feature-card:hover::before { opacity:1; }
+  .feature-icon { font-size:2rem; margin-bottom:1rem; }
+  .feature-card h3 {
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.2rem; font-weight:600;
+    margin-bottom:0.6rem; color:var(--text);
+  }
+  .feature-card p { font-size:0.88rem; color:var(--text-dim); line-height:1.6; }
+
+  /* TRUST SECTION */
+  .trust-bar {
+    position:relative; z-index:1;
+    padding:3rem 4rem;
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+    display:flex; justify-content:center;
+    gap:4rem; flex-wrap:wrap;
+    background:rgba(255,255,255,0.02);
+  }
+  .trust-item { text-align:center; }
+  .trust-item .num {
+    font-family:'Cormorant Garamond',serif;
+    font-size:2.5rem; font-weight:700;
+    color:var(--gold);
+  }
+  .trust-item p { font-size:0.82rem; color:var(--muted); margin-top:0.25rem; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    position:relative; z-index:1;
+    padding:2rem 4rem; text-align:center;
+    font-size:0.8rem; color:var(--muted); line-height:1.6;
+    border-top:1px solid var(--border);
+    max-width:800px; margin:0 auto;
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    from { opacity:0; transform:translateY(20px); }
+    to   { opacity:1; transform:translateY(0); }
+  }
+
+  /* Flash messages */
+  .flash-container {
+    position:fixed; top:5rem; right:1.5rem; z-index:200;
+    display:flex; flex-direction:column; gap:0.5rem;
+  }
+  .flash {
+    padding:0.8rem 1.5rem; border-radius:4px;
+    font-size:0.88rem; font-weight:500;
+    animation:fadeUp 0.3s ease;
+    max-width:350px;
+  }
+  .flash.error   { background:#3d1a1a; border:1px solid #8b2020; color:#ffaaaa; }
+  .flash.success { background:#1a3d2a; border:1px solid #208b4a; color:#aaffcc; }
+  .flash.info    { background:#1a2f3d; border:1px solid #207a8b; color:#aaddff; }
+
+  @media(max-width:768px) {
+    nav { padding:1rem 1.5rem; }
+    .features { padding:4rem 1.5rem; }
+    .trust-bar { padding:2rem 1.5rem; gap:2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="flash-container">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="flash {{ category }}">{{ message }}</div>
+    {% endfor %}
+  {% endwith %}
+</div>
+
+<nav>
+  <div class="logo">Lex<span>AI</span></div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="{{ url_for('login') }}">Log In</a>
+    <a href="{{ url_for('register') }}" class="btn-nav">Get Started</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">AI-Powered · For Solo Attorneys</div>
+    <h1>Your Personal<br><em>Legal Assistant</em></h1>
+    <p>Upload any contract. Get instant risk analysis, plain English summaries, missing clause detection, and grounded Q&A — all powered by AI that never guesses.</p>
+    <div class="hero-cta">
+      <a href="{{ url_for('register') }}" class="btn-primary">Start Analyzing →</a>
+      <a href="{{ url_for('login') }}" class="btn-outline">I have an account</a>
+    </div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-item"><div class="num">0</div><p>Hallucinations<br>guaranteed</p></div>
+  <div class="trust-item"><div class="num">6+</div><p>Features in<br>one tool</p></div>
+  <div class="trust-item"><div class="num">RAG</div><p>Grounded in<br>your document</p></div>
+  <div class="trust-item"><div class="num">DOCX</div><p>Exportable<br>reports</p></div>
+</div>
+
+<section class="features" id="features">
+  <div class="section-label">Capabilities</div>
+  <h2 class="section-title">Everything a solo attorney needs</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">📋</div>
+      <h3>Contract Analyzer</h3>
+      <p>Upload any PDF contract and get a structured breakdown of parties, obligations, rights, and key terms.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚠️</div>
+      <h3>Risk Flagging</h3>
+      <p>Automatically identifies risky, one-sided, or unusual clauses with severity levels: HIGH, MEDIUM, LOW.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">❓</div>
+      <h3>Legal Q&A</h3>
+      <p>Ask any question about your uploaded document. Every answer is cited directly from the contract text.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📄</div>
+      <h3>Plain English Summary</h3>
+      <p>Translate dense legal language into clear, readable English — perfect for client explanations.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔍</div>
+      <h3>Missing Clause Detection</h3>
+      <p>Checks for 14+ essential clauses that should be in any contract, flagging what's absent and why it matters.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📥</div>
+      <h3>Export as DOCX</h3>
+      <p>Download your full analysis as a formatted Word document ready to share or archive.</p>
+    </div>
+  </div>
+</section>
+
+<div class="disclaimer">
+  ⚖️ LexAI is an AI-powered document analysis tool. It does not provide legal advice and is not a substitute for a qualified attorney. All analysis is grounded in the uploaded document and should be reviewed by a licensed legal professional before any action is taken.
+</div>
+
+</body>
+</html>

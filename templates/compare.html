@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexAI — Contract Comparison</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:#0d1b3e; --gold:#c9a84c; --gold-light:#e8c97a;
+    --text:#e8edf5; --text-dim:#a8b4c8; --border:rgba(201,168,76,0.2);
+    --surface:rgba(255,255,255,0.04);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--navy); color:var(--text); font-family:'DM Sans',sans-serif; min-height:100vh; display:flex; }
+  .sidebar { width:260px; min-height:100vh; background:rgba(255,255,255,0.03); border-right:1px solid var(--border); display:flex; flex-direction:column; padding:2rem 1.5rem; position:fixed; }
+  .logo { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:700; color:var(--gold); margin-bottom:2rem; }
+  .logo span { color:var(--text); font-weight:400; }
+  .nav-item { display:flex; align-items:center; gap:0.75rem; padding:0.75rem 1rem; border-radius:6px; color:var(--text-dim); text-decoration:none; font-size:0.9rem; transition:all 0.2s; margin-bottom:0.3rem; }
+  .nav-item:hover { background:var(--surface); color:var(--text); }
+  .nav-active { color:var(--gold) !important; }
+  .main { margin-left:260px; flex:1; padding:2.5rem; }
+  .page-title { font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:600; margin-bottom:0.5rem; }
+  .page-sub { color:var(--text-dim); font-size:0.9rem; margin-bottom:2.5rem; }
+  .compare-upload { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:1.5rem; }
+  .doc-upload-card { background:var(--surface); border:2px dashed var(--border); border-radius:12px; padding:2rem; text-align:center; transition:all 0.3s; }
+  .doc-upload-card:hover { border-color:var(--gold); }
+  .doc-num { font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-weight:600; color:var(--gold); margin-bottom:0.75rem; }
+  .input-file { display:none; }
+  .file-label { display:inline-block; padding:0.6rem 1.2rem; border:1px solid var(--border); border-radius:6px; cursor:pointer; font-size:0.88rem; color:var(--text-dim); transition:all 0.2s; margin-top:0.75rem; }
+  .file-label:hover { border-color:var(--gold); color:var(--gold); }
+  .session-row { display:flex; gap:1rem; align-items:center; margin-bottom:1.5rem; }
+  .session-input { flex:1; padding:0.75rem 1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:6px; color:var(--text); font-family:'DM Sans',sans-serif; font-size:0.9rem; outline:none; }
+  .session-input:focus { border-color:var(--gold); }
+  .btn-compare { padding:0.85rem 2.5rem; background:var(--gold); color:#0d1b3e; border:none; border-radius:6px; font-weight:600; font-size:0.95rem; cursor:pointer; transition:all 0.2s; font-family:'DM Sans',sans-serif; }
+  .btn-compare:hover { background:var(--gold-light); }
+  .status { text-align:center; font-size:0.9rem; color:var(--gold); padding:1rem; }
+  .section-title { font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-weight:600; margin-bottom:1rem; }
+  .comparison-card { display:flex; align-items:center; justify-content:space-between; padding:1rem 1.5rem; background:var(--surface); border:1px solid var(--border); border-radius:8px; margin-bottom:0.75rem; }
+  .cmp-name { font-weight:500; font-size:0.95rem; }
+  .cmp-docs { font-size:0.8rem; color:var(--text-dim); margin-top:0.2rem; }
+  .btn-sm { padding:0.4rem 1rem; border-radius:4px; font-size:0.82rem; cursor:pointer; text-decoration:none; background:var(--gold); color:#0d1b3e; font-weight:600; border:none; }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="logo">Lex<span>AI</span></div>
+  <a href="/dashboard" class="nav-item">🏠 Dashboard</a>
+  <a href="/compare" class="nav-item nav-active">⚖️ Compare Contracts</a>
+  <a href="/profile" class="nav-item">👤 Profile</a>
+  <a href="/logout" class="nav-item">🚪 Logout</a>
+</div>
+
+<div class="main">
+  <div class="page-title">⚖️ Contract Comparison</div>
+  <div class="page-sub">Upload two versions of a contract to get instant AI-powered side-by-side analysis.</div>
+
+  <div class="compare-upload">
+    <div class="doc-upload-card">
+      <div class="doc-num">Document 1</div>
+      <div style="font-size:0.85rem; color:var(--text-dim);">Original / Version A</div>
+      <input type="file" id="doc1" class="input-file" accept=".pdf">
+      <label for="doc1" class="file-label" id="doc1-label">📎 Choose PDF</label>
+    </div>
+    <div class="doc-upload-card">
+      <div class="doc-num">Document 2</div>
+      <div style="font-size:0.85rem; color:var(--text-dim);">Revised / Version B</div>
+      <input type="file" id="doc2" class="input-file" accept=".pdf">
+      <label for="doc2" class="file-label" id="doc2-label">📎 Choose PDF</label>
+    </div>
+  </div>
+
+  <div class="session-row">
+    <input type="text" id="session_name" class="session-input" placeholder="Comparison name e.g. NDA v1 vs v2">
+    <button class="btn-compare" onclick="runComparison()">Compare Now →</button>
+  </div>
+
+  <div id="status" class="status" style="display:none;"></div>
+
+  {% if comparisons %}
+  <div class="section-title">Previous Comparisons</div>
+  {% for c in comparisons %}
+  <div class="comparison-card">
+    <div>
+      <div class="cmp-name">{{ c.session_name }}</div>
+      <div class="cmp-docs">{{ c.doc1_filename }} vs {{ c.doc2_filename }}</div>
+    </div>
+    <a href="/compare/result/{{ c.id }}" class="btn-sm">View →</a>
+  </div>
+  {% endfor %}
+  {% endif %}
+</div>
+
+<script>
+  document.getElementById('doc1').addEventListener('change', function() {
+    document.getElementById('doc1-label').textContent = this.files[0] ? '✅ ' + this.files[0].name : '📎 Choose PDF';
+  });
+  document.getElementById('doc2').addEventListener('change', function() {
+    document.getElementById('doc2-label').textContent = this.files[0] ? '✅ ' + this.files[0].name : '📎 Choose PDF';
+  });
+
+  async function runComparison() {
+    const doc1 = document.getElementById('doc1').files[0];
+    const doc2 = document.getElementById('doc2').files[0];
+    const name = document.getElementById('session_name').value;
+    const status = document.getElementById('status');
+
+    if (!doc1 || !doc2) {
+      status.style.display = 'block';
+      status.textContent = 'Please select both PDF files.';
+      status.style.color = '#ff9999';
+      return;
+    }
+
+    status.style.display = 'block';
+    status.textContent = 'Analyzing both contracts... this may take 30-60 seconds';
+    status.style.color = 'var(--gold)';
+
+    const formData = new FormData();
+    formData.append('doc1', doc1);
+    formData.append('doc2', doc2);
+    formData.append('session_name', name || 'Contract Comparison');
+
+    try {
+      const res = await fetch('/compare/run', { method: 'POST', body: formData });
+      const data = await res.json();
+
+      if (data.success) {
+        status.textContent = 'Comparison complete! Redirecting...';
+        status.style.color = '#6bffb8';
+        setTimeout(() => { window.location.href = '/compare/result/' + data.comparison_id; }, 1000);
+      } else {
+        status.textContent = 'Error: ' + data.error;
+        status.style.color = '#ff9999';
+      }
+    } catch(err) {
+      status.textContent = 'Request failed. Please try again.';
+      status.style.color = '#ff9999';
+    }
+  }
+</script>
+</body>
+</html>

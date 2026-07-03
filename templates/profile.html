@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexAI — My Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#0d1b3e; --gold:#c9a84c; --gold-light:#e8c97a; --text:#e8edf5; --text-dim:#a8b4c8; --border:rgba(201,168,76,0.2); --surface:rgba(255,255,255,0.04); }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--navy); color:var(--text); font-family:'DM Sans',sans-serif; min-height:100vh; display:flex; }
+  .sidebar { width:260px; min-height:100vh; background:rgba(255,255,255,0.03); border-right:1px solid var(--border); display:flex; flex-direction:column; padding:2rem 1.5rem; position:fixed; }
+  .logo { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:700; color:var(--gold); margin-bottom:2rem; }
+  .logo span { color:var(--text); font-weight:400; }
+  .nav-item { display:flex; align-items:center; gap:0.75rem; padding:0.75rem 1rem; border-radius:6px; color:var(--text-dim); text-decoration:none; font-size:0.9rem; transition:all 0.2s; margin-bottom:0.3rem; }
+  .nav-item:hover { background:var(--surface); color:var(--text); }
+  .nav-active { color:var(--gold) !important; background:rgba(201,168,76,0.08) !important; }
+  .main { margin-left:260px; flex:1; padding:2.5rem; max-width:600px; }
+  .page-title { font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:600; margin-bottom:2rem; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:2rem; }
+  .form-group { margin-bottom:1.2rem; }
+  label { display:block; font-size:0.82rem; color:var(--text-dim); margin-bottom:0.4rem; letter-spacing:0.05em; text-transform:uppercase; }
+  input { width:100%; padding:0.75rem 1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:6px; color:var(--text); font-family:'DM Sans',sans-serif; font-size:0.95rem; outline:none; transition:all 0.2s; }
+  input:focus { border-color:var(--gold); }
+  input:disabled { opacity:0.5; cursor:not-allowed; }
+  .btn { padding:0.85rem 2rem; background:var(--gold); color:#0d1b3e; border:none; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.95rem; transition:all 0.2s; margin-top:0.5rem; }
+  .btn:hover { background:var(--gold-light); }
+  .flash { padding:0.75rem 1rem; border-radius:6px; font-size:0.88rem; margin-bottom:1rem; }
+  .flash.success { background:rgba(107,255,184,0.1); border:1px solid rgba(107,255,184,0.3); color:#99ffcc; }
+  .flash.error { background:rgba(255,107,107,0.1); border:1px solid rgba(255,107,107,0.3); color:#ff9999; }
+  .divider { border:none; border-top:1px solid var(--border); margin:1.5rem 0; }
+  .section-label { font-size:0.85rem; color:var(--text-dim); margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--border); }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="logo">Lex<span>AI</span></div>
+  <a href="/dashboard" class="nav-item">🏠 Dashboard</a>
+  <a href="/profile" class="nav-item nav-active">👤 Profile</a>
+  <a href="/logout" class="nav-item">🚪 Logout</a>
+</div>
+
+<div class="main">
+  <div class="page-title">My Profile</div>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="flash {{ category }}">{{ message }}</div>
+    {% endfor %}
+  {% endwith %}
+
+  <div class="card">
+    <form method="POST" action="/profile">
+
+      <div class="section-label">Account Information</div>
+
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" name="full_name" value="{{ user.full_name }}" required>
+      </div>
+
+      <div class="form-group">
+        <label>Email (cannot be changed)</label>
+        <input type="email" value="{{ user.email }}" disabled>
+      </div>
+
+      <div class="form-group">
+        <label>Phone</label>
+        <input type="text" name="phone" value="{{ user.phone or '' }}" placeholder="+92 300 1234567">
+      </div>
+
+      <hr class="divider">
+      <div class="section-label">Change Password</div>
+
+      <div class="form-group">
+        <label>New Password (leave blank to keep current)</label>
+        <input type="password" name="new_password" placeholder="Min 8 characters">
+      </div>
+
+      <button type="submit" class="btn">Save Changes ✓</button>
+
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
